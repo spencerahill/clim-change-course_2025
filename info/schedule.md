@@ -105,7 +105,7 @@ Textbook sections refer to the required Tziperman book.
   - n/a
   - **FINAL EXAM**
   -
-  - [official schedule](https://www.ccny.cuny.edu/registrar/spring-2024-final-exam-schedule)
+  - 
 * - **TBD**
   - n/a
   - **B8800 FINAL PROJECT DUE**
