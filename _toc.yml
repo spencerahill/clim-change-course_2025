@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: home
+parts: 
+  - caption: Course Information
+    chapters: 
+      - file: info/syllabus
+      - file: info/schedule
+  - caption: Assignments
+    chapters: 
+      - file: assignments/hws
+      - file: assignments/b8800-term-paper
+
+
