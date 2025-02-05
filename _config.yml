@@ -31,8 +31,8 @@ latex:
     targetname: clim-change-course_-2024.tex
 
 # Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
+# bibtex_bibfiles:
+#   - references.bib
 
 # Information about where the book exists on the web
 repository:

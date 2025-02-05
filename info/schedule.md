@@ -24,7 +24,7 @@ Textbook sections refer to the required Tziperman book.
 * - 2/5
   - 1
   - Course overview
-  - Preface and Ch. 0: Introduction
+  - Preface and Ch. 1
   - Read the [syllabus](./syllabus)
 * - 2/12
   - n/a
@@ -33,48 +33,48 @@ Textbook sections refer to the required Tziperman book.
   - (CCNY closed)
 * - 2/19
   - 2
-  - Ch. 1: Greenhouse
-  -
+  - The Greenhouse Effect
+  - Ch. 2
   - 
 * - 2/26
   - 3
-  - Ch. 2: Temperature
-  - 
+  - Temperature
+  - Ch. 3
   - 
 * - 3/5
   - 4
-  - 
-  - 
+  - Sea Level Rise
+  - Ch. 4
   - 
 * - **Thursday 3/6**
   - 5
-  - 
-  - 
+  - Ocean Acidification
+  - Ch. 5
   - [classes follow Wednesday schedule](https://www.ccny.cuny.edu/registrar/spring-2025-academic-calendar)
 * - 3/12
   - 6
-  - 
-  - 
+  - Ocean Circulation
+  - Ch. 6
   - 
 * - 3/19
   - 7
-  - 
-  - 
+  - Clouds
+  - Ch. 7
   -
 * - 3/26
   - 8
-  - 
-  -
+  - **MIDTERM**
+  - Ch. 1-7
   - 
 * - 4/2
   - 9
-  - 
-  - 
+  - Hurricanes
+  - Ch. 8
   - 
 * - 4/9
   - 10
-  - 
-  - 
+  - Ice: Arctic Sea Ice, Greenland and Antarctica, Mountain Glaciers
+  - Ch. 9, 10, 11
   - 
 * - 4/16
   - n/a
@@ -83,23 +83,23 @@ Textbook sections refer to the required Tziperman book.
   - (Spring Recess)
 * - 4/23
   - 11
-  - 
-  - 
+  - Droughts and Precipitation
+  - Ch. 12
   - 
 * - 4/30
   - 12
-  - 
-  - 
+  - Heat waves
+  - Ch. 13
   - 
 * - 5/7
   - 13
-  - 
-  - 
+  - Forest Fires
+  - Ch. 14
   -
 * - 5/14
   - 14
-  - 
-  - 
+  - Review and B8800 final presentations
+  - Ch. 1-14
   -
 * - **TBD**
   - n/a
