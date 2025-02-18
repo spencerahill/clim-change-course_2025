@@ -1,7 +1,7 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-02-03, valid for class up to and including **2025-02-05**.  For lectures *after* this date, the schedule is **tentative**. 
+Last updated: 2025-02-18, valid for class up to and including **2025-02-19**.  For lectures *after* this date, the schedule is **tentative**. 
 :::
 
 :::{warning}
@@ -22,7 +22,7 @@ Textbook sections refer to the required Tziperman book.
   - Textbook sections
   - Notes
 * - 2/5
-  - 1
+  - none
   - Course overview
   - Preface and Ch. 1
   - Read the [syllabus](./syllabus)
@@ -33,8 +33,8 @@ Textbook sections refer to the required Tziperman book.
   - (CCNY closed)
 * - 2/19
   - 2
-  - The Greenhouse Effect
-  - Ch. 2
+  - Overview; The Greenhouse Effect
+  - Ch. 1 and 2
   - 
 * - 2/26
   - 3

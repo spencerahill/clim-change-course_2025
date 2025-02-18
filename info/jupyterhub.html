@@ -371,10 +371,15 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#accessing-the-jupyterhub">Accessing the JupyterHub</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-free-github-account-if-you-don-t-already-have-one">Create a free Github account if you don’t already have one</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#submit-your-github-profile-name-via-brightspace">Submit your Github profile name via Brightspace</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#login-to-the-jupyterhub">Login to the JupyterHub.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-access-to-the-jupyterhub">Getting access to the JupyterHub</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-create-a-free-github-account-if-you-don-t-already-have-one">Step 1: Create a free Github account if you don’t already have one</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-submit-your-github-profile-name-via-brightspace">Step 2: Submit your Github profile name via Brightspace</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-login-to-the-jupyterhub">Step 3: Login to the JupyterHub.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-check-that-it-works">Step 4: Check that it works</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-connection-has-timed-out">“The connection has timed out”</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#credits">Credits</a></li>
@@ -398,20 +403,43 @@
 <p>Any code ultimately has to have some computer to run on.  In principle, that could be your own computer, provided you downloaded and properly installed python, jupyter, and all the other requirements (which isn’t as hard as it sounds, at least if you’re not on Windows, but I digress).</p>
 <p>Rather than having each of you do all that installation and setup and forcing you to bring your laptop to every class, we will run these notebooks on a cloud-based server, called a JupyterHub, setup specifically for this class.</p>
 </section>
-<section id="accessing-the-jupyterhub">
-<h2>Accessing the JupyterHub<a class="headerlink" href="#accessing-the-jupyterhub" title="Link to this heading">#</a></h2>
-<section id="create-a-free-github-account-if-you-don-t-already-have-one">
-<h3>Create a free Github account if you don’t already have one<a class="headerlink" href="#create-a-free-github-account-if-you-don-t-already-have-one" title="Link to this heading">#</a></h3>
+<section id="getting-access-to-the-jupyterhub">
+<h2>Getting access to the JupyterHub<a class="headerlink" href="#getting-access-to-the-jupyterhub" title="Link to this heading">#</a></h2>
+<section id="step-1-create-a-free-github-account-if-you-don-t-already-have-one">
+<h3>Step 1: Create a free Github account if you don’t already have one<a class="headerlink" href="#step-1-create-a-free-github-account-if-you-don-t-already-have-one" title="Link to this heading">#</a></h3>
 <p>To make sure only students in the course can access the JupyterHub, you’ll have to login using a Github account.  If you don’t alreaady have one, they are free and take only a few minutes to setup: go <a class="reference external" href="https://github.com/signup">here</a>.</p>
 </section>
-<section id="submit-your-github-profile-name-via-brightspace">
-<h3>Submit your Github profile name via Brightspace<a class="headerlink" href="#submit-your-github-profile-name-via-brightspace" title="Link to this heading">#</a></h3>
+<section id="step-2-submit-your-github-profile-name-via-brightspace">
+<h3>Step 2: Submit your Github profile name via Brightspace<a class="headerlink" href="#step-2-submit-your-github-profile-name-via-brightspace" title="Link to this heading">#</a></h3>
 <p>There is an assignment within the course Brightspace where you submit your Github profile name.  Once you’ve done that, the professor will be able to add you as one of the approved users of the JupyterHub.</p>
 </section>
-<section id="login-to-the-jupyterhub">
-<h3>Login to the JupyterHub.<a class="headerlink" href="#login-to-the-jupyterhub" title="Link to this heading">#</a></h3>
+<section id="step-3-login-to-the-jupyterhub">
+<h3>Step 3: Login to the JupyterHub.<a class="headerlink" href="#step-3-login-to-the-jupyterhub" title="Link to this heading">#</a></h3>
 <p>The link to the course JupyterHub is at the top of this page and repeated <a class="reference external" href="https://ccny25s-1.ees220002.projects.jetstream-cloud.org">here</a>.  Once you’ve been added as an approved user, go there and login using your Github profile.</p>
 <p>You’ll get a warning message about “Authorize JupyterHub CCNY Spring 2025 by Ana Espinoza.”  Ana Espinoza is the sysadmin who is running the JupyterHub for us (thanks Ana!).  So go ahead and accept that.  Then, you should be able to login and end up at the Jupyterlab.</p>
+</section>
+<section id="step-4-check-that-it-works">
+<h3>Step 4: Check that it works<a class="headerlink" href="#step-4-check-that-it-works" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you’re already familiar with how to use Jupyterlab, then simply do things you normally would and see if they work: create a new notebook, run some cells, etc.  As long as that all works, it means the Jupyterhub server is up and running correctly.  If you <em>don’t</em> know how to do all that, follow the instructions below.</p>
+</div>
+<p>Once you successfully login, your browser will show a main window called the “Launcher”, and to the left of that a narrower column that looks like a file explorer you’re familiar with on your computer.   In the Launcher window, the the heading at the top will say “Notebook”, and just below it will be two squares with blue and yellow symbols inside.  Click the one on the <strong>right</strong> that says <code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">[conda</span> <span class="pre">env:ccny25s]</span></code>.</p>
+<p>This will create a new, empty <strong>Jupyter Notebook</strong> and open it in that window, replacing the Launcher window.  Click inside the long skinny rectangle near the top; this is an empty <strong>cell</strong>.  When you click inside it, you’ll be able to type things into it.  Type the following, and don’t forget the quotation marks: <code class="docutils literal notranslate"><span class="pre">print(&quot;hello</span> <span class="pre">world&quot;)</span></code>.  Then, in the bar at the top of the notebook window, press the right-pointing triangle that looks like a “play” button on a remote.  Just below the cell, there should</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If instead you get some kind of error message, that still means the server is working!  Most likely, you forgot one or both quotation marks or parentheses, or accidentally misspelled <code class="docutils literal notranslate"><span class="pre">print</span></code>.  Of course, you’re welcome to try to <strong>debug</strong> the problem by changing the text and re-running the cell, repeating that as needed until it works.  But for the purposes of verifying that the Jupyterhub server is working properly for you, mission accomplished!</p>
+</div>
+<!-- In that left column, there is a folder named "`share`".  Double click it.  Inside will be a file named `our-first-jupyter-notebook.ipynb`.  Double click that file.  It will open up in the bigger window to the right, replacing what was the Launcher.  
+ -->
+</section>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">#</a></h2>
+<section id="the-connection-has-timed-out">
+<h3>“The connection has timed out”<a class="headerlink" href="#the-connection-has-timed-out" title="Link to this heading">#</a></h3>
+<p>On occasion, the JupyterHub server goes down, for reasons completely out of our control.  So if you enter the URL correctly and your browser gives you an error message along the lines of “the connection has timed out”, please give it ~10 minutes and then try again.</p>
+<p>If you still can’t access the JupyterHub after 1 hour of trying, please email the professor.</p>
 </section>
 </section>
 <section id="credits">
@@ -486,10 +514,15 @@
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#accessing-the-jupyterhub">Accessing the JupyterHub</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-free-github-account-if-you-don-t-already-have-one">Create a free Github account if you don’t already have one</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#submit-your-github-profile-name-via-brightspace">Submit your Github profile name via Brightspace</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#login-to-the-jupyterhub">Login to the JupyterHub.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-access-to-the-jupyterhub">Getting access to the JupyterHub</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-create-a-free-github-account-if-you-don-t-already-have-one">Step 1: Create a free Github account if you don’t already have one</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-submit-your-github-profile-name-via-brightspace">Step 2: Submit your Github profile name via Brightspace</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-login-to-the-jupyterhub">Step 3: Login to the JupyterHub.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-check-that-it-works">Step 4: Check that it works</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-connection-has-timed-out">“The connection has timed out”</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#credits">Credits</a></li>
