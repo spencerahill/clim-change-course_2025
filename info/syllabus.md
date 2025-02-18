@@ -10,6 +10,7 @@
 - **Brightspace site**: students currently enrolled in the class, access by logging into [CUNY Brightspace](https://brightspace.cuny.edu/)
 - [**Course Website**](https://spencerahill.github.io/clim-change-course_2025) (the site you're on)
 - [**Course JupyterHub**](https://ccny25s-1.ees220002.projects.jetstream-cloud.org); more info [here](./jupyterhub)
+- [**Course AllDayTA site**](https://app.alldayta.com/cuny-city-college-of-ny/climate-and-climate-change); AI-powered TA available 24/7 to answer your questions
 ---
 - **Instructor**: [Spencer Hill](https://shill.ccny.cuny.edu)
 - **Email**: [shill1@ccny.cuny.edu](mailto:shill1@ccny.cuny.edu)
@@ -59,6 +60,25 @@ Please sign up for email notifications of Brightspace announcements for this cou
 
 ### Course public website
 This syllabus, the course schedule, links to lecture slides, and some supplementary materials will be posted on this public website (the one you're on right now).
+
+### Course AllDayTA site
+I am trying out a new AI Teaching Assistant service called [AllDayTA](https://www.alldayta.com/) for this course.  In short, it is a chatbot that's available to you 24/7 to answer any questions you might have about the class.  Here is their [FAQ page for students](https://www.alldayta.com/student-faqs).  The link to you'll use for our course is here: https://app.alldayta.com/cuny-city-college-of-ny/climate-and-climate-change.
+
+:::{note}
+How it works behind the scenes, if you're curious: I upload course material such as the syllabus, schedule, lecture slides, assignments, etc., and then it "learns" those materials and uses them to answer your questions.  So far, I have uploaded the syllabus, schedule, jupyterhub instructions, and copies of the Brightspace announcements and assignment prompts.  I will continue uploading it updated versions of each of these, along with lecture content and other class materials as the semester goes on.
+:::
+
+There will be an early assignment through Brightspace to verify that you can login to this tool and to get you to start playing around with it.  I encourage you to then continue using it throughout the semester!  As the weeks progress and I add more and more content to the system, it should become more and more helpful to you and more able to help you with questions on homework assignments, things that confused you in class, and more.
+
+:::{warning}
+AllDayTA is specifically designed to be as accurate as possible regarding the course materials, but like any generative AI tool it can still occasionally **hallucinate**, which is a fancy way of saying that the AI **tells you wrong information**.  Fortunately, however, unlike some other AI tools, AllDayTA always explicitly cites the material that it has drawn its answers from.  
+
+Given all that, **always check what it tells you against the source material it cites.**  This is a specific example of a more general, critical skill in working with generative AI (and humans for that matter): you cannot assume that what it says is 100% accurate.
+:::
+
+
+
+
 
 
 ## Grading
