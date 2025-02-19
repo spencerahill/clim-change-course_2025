@@ -31,6 +31,9 @@ As such, by semester's end **you will be much better equipped to assess claims a
 
 [^1]: I've adapted this from Tziperman's framework in the textbook of, essentially, **what** might happen, **why** it would happen, and the underlying **uncertainty**.
 
+## More on prerequisites
+(TODO: calculus, python)
+
 ## Course materials
 ### **Required** textbook
 [*Global Warming Science: A Quantitative Introduction to Climate Change and its Consequences*](https://press.princeton.edu/books/paperback/9780691228792/global-warming-science) by Eli Tziperman.
@@ -62,7 +65,7 @@ Please sign up for email notifications of Brightspace announcements for this cou
 This syllabus, the course schedule, links to lecture slides, and some supplementary materials will be posted on this public website (the one you're on right now).
 
 ### Course AllDayTA site
-I am trying out a new AI Teaching Assistant service called [AllDayTA](https://www.alldayta.com/) for this course.  In short, it is a chatbot that's available to you 24/7 to answer any questions you might have about the class.  Here is their [FAQ page for students](https://www.alldayta.com/student-faqs).  The link to you'll use for our course is here: https://app.alldayta.com/cuny-city-college-of-ny/climate-and-climate-change.
+I am trying out a new AI Teaching Assistant service called [AllDayTA](https://www.alldayta.com/) for this course.  In short, it is a chatbot that's available to you 24/7 to answer any questions you might have about the class.  You can even ask it questions in languages besides Enlgish, and it will respond in that language!  Here is their [FAQ page for students](https://www.alldayta.com/student-faqs).  The link to you'll use for our course is here: https://app.alldayta.com/cuny-city-college-of-ny/climate-and-climate-change.
 
 :::{note}
 How it works behind the scenes, if you're curious: I upload course material such as the syllabus, schedule, lecture slides, assignments, etc., and then it "learns" those materials and uses them to answer your questions.  So far, I have uploaded the syllabus, schedule, jupyterhub instructions, and copies of the Brightspace announcements and assignment prompts.  I will continue uploading it updated versions of each of these, along with lecture content and other class materials as the semester goes on.
@@ -75,9 +78,6 @@ AllDayTA is specifically designed to be as accurate as possible regarding the co
 
 Given all that, **always check what it tells you against the source material it cites.**  This is a specific example of a more general, critical skill in working with generative AI (and humans for that matter): you cannot assume that what it says is 100% accurate.
 :::
-
-
-
 
 
 
@@ -144,6 +144,7 @@ As part of the participation category of grading, each week (starting the week o
 1. Identifying something from class or from an assignment that you didn't fully understand.
 2. Providing an answer or explanation to somebody else's post about something they didn't fully understand. -->
 
+
 ### Homework
 HW assignments are graded on an *effort* basis, 0% to 100%.  An earnest, thoughtful attempt at every problem will earn you a 95%.  Truly exceptional work will earn a 100%.  Any question not answered receives 0%.  Questions partially answered or attempted without sufficient critical thinking will earn partial credit.
 
@@ -157,8 +158,43 @@ All HW due dates will be posted on the [course schedule](./schedule).  **They ar
 ### "Climate change" vs. "climate science"
 This is a class about the physical science of *climate change*.  The science of climate change is a subset of the broader topic of *climate science*, and truly understanding many aspects of climate change requires somewhat deep dives into the underlying fundamental climate science.  However, this underlying science will always be on an *as-needed basis* in order to understand present-day and anticipated climate change due to human activities.
 
-### Integrating artificial intelligence
+## Structure of weekly class meetings
+### First 5-10 minutes: *exam prep question*
+Each class will start with an **exam prep question**.  These questions closely mimic the types of questions that will appear on the midterm and final.
 
+For each one, you will be given a few minutes to work through it, and it will be specified whether to work on it alone or in pairs.  Then, we’ll go through the solution together.
+
+It’s possible that one of these exact questions will appear on the midterm and/or final...though not more than one!  Take these seriously but don’t obsess over them at the expense of reviewing other material.  For similar reasons, there's no point in just plugging them into Google or ChatGPT...try them 100% on your own, and then if you're stuck after a minute or two, consult your textbook and/or notes.
+
+Exam prep questions assume you have done the assigned reading!  Often they will be based on the textbook material that you were assigned for that day.  (Though sometimes they'll be from earlier material.)  You’ll get much less out of them if you haven’t done the reading
+
+These will be the very first thing we do at 2pm when class starts...further motivation, I hope, to show up on time and ready to think critically.
+
+
+### Main "lecture" (~1 hr 15 min): deep dive into key and/or challenging concepts from the reading
+After the exam prep question exercise and any miscellany (announcements etc.), we'll take 1 hr or up to 1.5 hrs for the main portion of the class.  **Because you will have already completed the reading, this will not be a traditional lecture that comprehensively covers the material.**
+
+Instead, it will usually consist of: 
+
+1. a quick summary of what the most important parts of the reading were
+2. a deep dive into one or more important and/or challenging concepts from the reading
+3. an opportunity for you to ask any other questions
+
+During this part of class, you should be paying attention: not on your phone, not logged into the lab computers or using your own laptop, etc.  To keep us all engaged, I will sometimes cold-call on people.
+
+### Stretch break (~5 min) while I post that week's assignment
+2.5 hours is too long without a break!  Get up, stretch your legs, use the restroom, whatever you need to be in the best mindset and ready physically to make the most of the second portion of class.
+
+During that time, I will post that week's HW assignment to Blackboard and, if it has a JupyterHub component, on the course JupyterHub.
+
+### Final ~1 hour: hands-on session
+In this part of the class, I'll mostly assist you with the computational aspects of the course.  This will often consist of an initial, guided tutorial followed by a more open session where I'll be floating around the classroom answering questions as you all ask them.
+
+Importantly, this class always spans a wide range of prior technical knowledge, from those who have never written a line of computer code in their lives to those who are daily active users of advanced data analysis packages in Python or other languages.  To keep from wasting the time of the more advanced students, you can consider the tutorials/hands-on part here **optional**.  You can, if you'd like, immediately proceed to the HW assignment that was just posted.  However, please do not leave early, so as not to disturb the learning environment for others.
+
+
+## Integrating artificial intelligence
+### Summary: this class will incorporate generative AI in lots of ways
 Currently, in early 2025, we are in the midst of a revolution in the abilities and usage of artificial intelligence (AI) models, most of all, large language models (LLMs) such as [ChatGPT](https://chatgpt.com/).  These have grown in power, capabilities, and popularity at an insane pace over the last couple years.  There is every indication that they will continue to do so into the future.
 
 This has two major implications for this course, the first being something you've surely heard/experienced in other courses, and the second being a bit more radical.
