@@ -22,7 +22,7 @@ Textbook sections refer to the required Tziperman book.
   - Textbook sections
   - Notes
 * - 2/5
-  - none
+  - 1
   - Course overview
   - Preface and Ch. 1
   - Read the [syllabus](./syllabus)
