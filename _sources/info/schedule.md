@@ -1,7 +1,7 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-02-18, valid for class up to and including **2025-02-19**.  For lectures *after* this date, the schedule is **tentative**. 
+Last updated: 2025-02-18, valid for class up to and including **2025-02-26**.  For lectures *after* this date, the schedule is **tentative**. 
 :::
 
 :::{warning}
@@ -35,12 +35,12 @@ Textbook sections refer to the required Tziperman book.
   - 2
   - Overview; The Greenhouse Effect
   - Ch. 1 and 2
-  - 
+  - HW1 posted on Brightspace; due Tuesday 2/25
 * - 2/26
   - 3
   - Temperature
-  - Ch. 3
-  - 
+  - Ch. 2.2.4-2.2.6; Ch. 3
+  - **HW1 due Tuesday 2/25**
 * - 3/5
   - 4
   - Sea Level Rise
