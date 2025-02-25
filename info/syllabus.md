@@ -11,6 +11,7 @@
 - [**Course Website**](https://spencerahill.github.io/clim-change-course_2025) (the site you're on)
 - [**Course JupyterHub**](https://ccny25s-1.ees220002.projects.jetstream-cloud.org); more info [here](./jupyterhub)
 - [**Course AllDayTA site**](https://app.alldayta.com/cuny-city-college-of-ny/climate-and-climate-change); AI-powered TA available 24/7 to answer your questions
+
 ---
 - **Instructor**: [Spencer Hill](https://shill.ccny.cuny.edu)
 - **Email**: [shill1@ccny.cuny.edu](mailto:shill1@ccny.cuny.edu)
@@ -19,6 +20,10 @@
 ---
 - **Required textbook**: [Global Warming Science](https://press.princeton.edu/books/paperback/9780691228792/global-warming-science) by Eli Tziperman
 - **Prerequisites**: They technically differ across the 488, B88, and SUS7300B sections, but basically one semester of college math, one semester of college physics, one previous Earth science course
+
+---
+- [**CCNY EAS Discord**](https://discord.com/channels/1301545245452013588/) Join for announcements of events, internship opportunities, and much more
+- **CCNY EAS student lounge**: MR 902 (directly across from EAS main office in MR 926).  Open to all students in EAS courses to study, relax, etc.
 
 ## Course goal
 You, the student, will gain deep understanding of:
@@ -137,12 +142,6 @@ We will always take a 5-10 minute break roughly halfway through the 2.5 hour cla
 Of the six elevators in Marshak, on any given day usually at least one, and sometimes three or four, are out of service, and so it can take several minutes for one to arrive and carry you all the way up to the 8th floor.  **Plan accordingly**.
 
 If you have a tight turnaround in your schedule due to work, another class, or some other important, repeating commitment just before this class, please let me know as soon as possible.
-
-<!-- ### Weekly posts on course message board
-As part of the participation category of grading, each week (starting the week of Feb. 19-23) you are required to post at least once to the course Brightspace message board.  The post can be either one of the following:
-
-1. Identifying something from class or from an assignment that you didn't fully understand.
-2. Providing an answer or explanation to somebody else's post about something they didn't fully understand. -->
 
 
 ### Homework
