@@ -1,7 +1,7 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-02-18, valid for class up to and including **2025-02-26**.  For lectures *after* this date, the schedule is **tentative**. 
+Last updated: 2025-02-26, valid for class up to and including **2025-03-06**.  For classes *after* this date, the schedule is **tentative**. 
 :::
 
 :::{warning}
@@ -38,34 +38,34 @@ Textbook sections refer to the required Tziperman book.
   - HW1 posted on Brightspace; due Tuesday 2/25
 * - 2/26
   - 3
-  - Temperature
+  - Temperature, part 1
   - Ch. 2.2.4-2.2.6; Ch. 3
   - **HW1 due Tuesday 2/25**
 * - 3/5
   - 4
-  - Sea Level Rise
-  - Ch. 4
-  - 
+  - Temperature, part 2
+  - Ch. 3
+  - **HW2 due Tuesday 3/4**
 * - **Thursday 3/6**
   - 5
-  - Ocean Acidification
-  - Ch. 5
+  - Clouds; other key sources of uncertainty in temperature projections
+  - Ch. 7
   - [classes follow Wednesday schedule](https://www.ccny.cuny.edu/registrar/spring-2025-academic-calendar)
 * - 3/12
   - 6
-  - Ocean Circulation
-  - Ch. 6
+  - Sea level rise
+  - Ch. 4
   - 
 * - 3/19
   - 7
-  - Clouds
-  - Ch. 7
+  - Ocean Acidification and Ocean Circulation
+  - Ch. 5; Ch. 6
   -
 * - 3/26
   - 8
   - **MIDTERM**
   - Ch. 1-7
-  - 
+  - 1st half will be review; 2nd half the exam
 * - 4/2
   - 9
   - Hurricanes
