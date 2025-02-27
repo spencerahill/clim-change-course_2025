@@ -6,7 +6,7 @@ The term project is **only** for those students enrolled in the course as EAS B8
 
 More coming soon...
 
-<!-- ## Overview: literature review on a climate dynamics topic of your choice
+<!-- ## Overview: data analysis project on a climate dynamics topic of your choice
 In this paper, you will summarize the state of understanding of some topic within the broad umbrella of climate science, based on a close reading of at least ten published peer-reviewed scientific articles on that topic.
 
 The topic needs to be (at least predominantly) **hard science** as opposed to, say, climate policy, climate justice, climate economics, etc.

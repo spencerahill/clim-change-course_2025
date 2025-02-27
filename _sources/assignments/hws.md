@@ -1,7 +1,7 @@
 # Homework assignments
 
 <!-- :::{note}
-Assignments are due via Blackboard by the time specified.  Refer to the [syllabus](../info/syllabus) for submission and grading policies.  
+Assignments are due via Brightspace by the time specified.  Refer to the [syllabus](../info/syllabus) for submission and grading policies.  
 ::: -->
 
 Coming soon...

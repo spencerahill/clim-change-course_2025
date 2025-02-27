@@ -72,6 +72,10 @@ This syllabus, the course schedule, links to lecture slides, and some supplement
 ### Course AllDayTA site
 I am trying out a new AI Teaching Assistant service called [AllDayTA](https://www.alldayta.com/) for this course.  In short, it is a chatbot that's available to you 24/7 to answer any questions you might have about the class.  You can even ask it questions in languages besides Enlgish, and it will respond in that language!  Here is their [FAQ page for students](https://www.alldayta.com/student-faqs).  The link to you'll use for our course is here: https://app.alldayta.com/cuny-city-college-of-ny/climate-and-climate-change.
 
+:::{warning}
+The professor is able to see every query that students pose to AllDayTA, although they are **anonymous**: it doesn't tell me *who* wrote each question.  AllDayTA also provides the professor with an automated weekly summary of the questions posed, in order to highlight key points of confusion for students.  Just keep that in mind.  Here is AllDayTa's [privacy policy](https://www.alldayta.com/privacy).  If you object to using AllDayTA for privacy or other reasons, no problem at all.
+:::
+
 :::{note}
 How it works behind the scenes, if you're curious: I upload course material such as the syllabus, schedule, lecture slides, assignments, etc., and then it "learns" those materials and uses them to answer your questions.  So far, I have uploaded the syllabus, schedule, jupyterhub instructions, and copies of the Brightspace announcements and assignment prompts.  I will continue uploading it updated versions of each of these, along with lecture content and other class materials as the semester goes on.
 :::
@@ -147,11 +151,14 @@ If you have a tight turnaround in your schedule due to work, another class, or s
 ### Homework
 HW assignments are graded on an *effort* basis, 0% to 100%.  An earnest, thoughtful attempt at every problem will earn you a 95%.  Truly exceptional work will earn a 100%.  Any question not answered receives 0%.  Questions partially answered or attempted without sufficient critical thinking will earn partial credit.
 
+All HW due dates will be posted on the [course schedule](./schedule).
+
+**Late policy**: Extensions require pre-approval in writing by the professor; email me ASAP if you get sick or have some major conflict.  Otherwise, 50% reduction for submissions the day after the deadline, zero credit for submissions after the next day.
+
 In total, the homework assignments are worth 15% of your semester grade.  This percentage reflects a balance: because of generative AI tools, I cannot meaningfully evaluate your comprehension of the material from take-home HW assignments.  However, working through problem sets is a **crucial** way of improving your understanding of this material!
 
 Approach your assignments accordingly: sure, in a pinch you can feed everything to ChatGPT and get most or all of that 15% of the grade...but how likely is it that your exam scores---which make up **85%** for non-B88 students and **65%** for B88 students---won't suffer even more if you don't put in the effort to understand the problem sets?  Keep in mind, the exams will follow the problem sets closely.
 
-All HW due dates will be posted on the [course schedule](./schedule).  **They are due at the START of class, 2pm, that day.**  Late assignments will not be accepted.
 
 ## Course philosophy
 ### "Climate change" vs. "climate science"
@@ -184,7 +191,7 @@ During this part of class, you should be paying attention: not on your phone, no
 ### Stretch break (~5 min) while I post that week's assignment
 2.5 hours is too long without a break!  Get up, stretch your legs, use the restroom, whatever you need to be in the best mindset and ready physically to make the most of the second portion of class.
 
-During that time, I will post that week's HW assignment to Blackboard and, if it has a JupyterHub component, on the course JupyterHub.
+During that time, I will post that week's HW assignment to Brightspace and, if it has a JupyterHub component, on the course JupyterHub.
 
 ### Final ~1 hour: hands-on session
 In this part of the class, I'll mostly assist you with the computational aspects of the course.  This will often consist of an initial, guided tutorial followed by a more open session where I'll be floating around the classroom answering questions as you all ask them.
