@@ -72,6 +72,10 @@ This syllabus, the course schedule, links to lecture slides, and some supplement
 ### Course AllDayTA site
 I am trying out a new AI Teaching Assistant service called [AllDayTA](https://www.alldayta.com/) for this course.  In short, it is a chatbot that's available to you 24/7 to answer any questions you might have about the class.  You can even ask it questions in languages besides Enlgish, and it will respond in that language!  Here is their [FAQ page for students](https://www.alldayta.com/student-faqs).  The link to you'll use for our course is here: https://app.alldayta.com/cuny-city-college-of-ny/climate-and-climate-change.
 
+:::{warning}
+The professor is able to see every query that students pose to AllDayTA, although they are **anonymous**: it doesn't tell me *who* wrote each question.  AllDayTA also provides the professor with an automated weekly summary of the questions posed, in order to highlight key points of confusion for students.  Just keep that in mind.  Here is AllDayTa's [privacy policy](https://www.alldayta.com/privacy).  If you object to using AllDayTA for privacy or other reasons, no problem at all.
+:::
+
 :::{note}
 How it works behind the scenes, if you're curious: I upload course material such as the syllabus, schedule, lecture slides, assignments, etc., and then it "learns" those materials and uses them to answer your questions.  So far, I have uploaded the syllabus, schedule, jupyterhub instructions, and copies of the Brightspace announcements and assignment prompts.  I will continue uploading it updated versions of each of these, along with lecture content and other class materials as the semester goes on.
 :::
