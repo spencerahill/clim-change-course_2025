@@ -68,8 +68,8 @@ Textbook sections refer to the required Tziperman book.
   - 
 * - 4/2
   - 9
-  - Ice: Arctic Sea Ice, Greenland and Antarctica, Mountain Glaciers
-  - Ch. 9, 10, 11
+  - Ice: Arctic Sea Ice, Greenland and Antarctica
+  - Ch. 9, 10
   - 
 * - 4/9
   - 10
