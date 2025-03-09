@@ -1,7 +1,7 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-02-26, valid for class up to and including **2025-03-06**.  For classes *after* this date, the schedule is **tentative**. 
+Last updated: 2025-03-09, valid for class up to and including **2025-03-12**.  For classes *after* this date, the schedule is **tentative**. 
 :::
 
 :::{warning}
@@ -48,33 +48,33 @@ Textbook sections refer to the required Tziperman book.
   - **HW2 due Tuesday 3/4**
 * - **Thursday 3/6**
   - 5
-  - Clouds; other key sources of uncertainty in temperature projections
+  - Clouds I
   - Ch. 7
   - [classes follow Wednesday schedule](https://www.ccny.cuny.edu/registrar/spring-2025-academic-calendar)
 * - 3/12
   - 6
-  - Sea level rise
-  - Ch. 4
+  - Clouds II; other key sources of uncertainty in temperature projections
+  - Ch. 7; [Hawkins and Sutton 2009](https://journals.ametsoc.org/view/journals/bams/90/8/2009bams2607_1.xml)
   - 
 * - 3/19
   - 7
-  - Ocean Acidification and Ocean Circulation
-  - Ch. 5; Ch. 6
-  -
+  - Sea level rise; review for midterm
+  - Ch. 4
+  - 2nd half of class will be review for midterm
 * - 3/26
   - 8
   - **MIDTERM**
-  - Ch. 1-7
-  - 1st half will be review; 2nd half the exam
+  - Ch. 1-4; 7
+  - 
 * - 4/2
   - 9
-  - Hurricanes
-  - Ch. 8
+  - Ice: Arctic Sea Ice, Greenland and Antarctica
+  - Ch. 9, 10
   - 
 * - 4/9
   - 10
-  - Ice: Arctic Sea Ice, Greenland and Antarctica, Mountain Glaciers
-  - Ch. 9, 10, 11
+  - Hurricanes
+  - Ch. 8
   - 
 * - 4/16
   - n/a
@@ -98,9 +98,9 @@ Textbook sections refer to the required Tziperman book.
   -
 * - 5/14
   - 14
-  - Review and B8800 final presentations
+  - B8800 final presentations; final review
   - Ch. 1-14
-  -
+  - 1st half will be presentations; 2nd half the final review
 * - **TBD**
   - n/a
   - **FINAL EXAM**
