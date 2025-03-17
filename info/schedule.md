@@ -1,7 +1,7 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-03-09, valid for class up to and including **2025-03-12**.  For classes *after* this date, the schedule is **tentative**. 
+Last updated: 2025-03-16, valid for class up to and including **2025-03-26**.  For classes *after* this date, the schedule is **tentative**. 
 :::
 
 :::{warning}
@@ -65,7 +65,7 @@ Textbook sections refer to the required Tziperman book.
   - 8
   - **MIDTERM**
   - Ch. 1-4; 7
-  - 
+  - in-person only; pencil-and-paper **only**
 * - 4/2
   - 9
   - Ice: Arctic Sea Ice, Greenland and Antarctica
@@ -101,15 +101,16 @@ Textbook sections refer to the required Tziperman book.
   - B8800 final presentations; final review
   - Ch. 1-14
   - 1st half will be presentations; 2nd half the final review
-* - **TBD**
-  - n/a
-  - **FINAL EXAM**
-  -
-  - 
-* - **TBD**
+* - **5/18 11:59pm**
   - n/a
   - **B8800 FINAL PROJECT DUE**
   -
   -  [instructions](../assignments/b8800-term-paper)
+* - 5/21  **1-3:15pm**
+  - n/a
+  - **FINAL EXAM**
+  -
+  - [official CCNY final exams schedule](https://www.ccny.cuny.edu/registrar/spring-2025-final-exam-schedule)
+
 
 ```
