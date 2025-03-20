@@ -15,7 +15,7 @@
 ---
 - **Instructor**: [Spencer Hill](https://shill.ccny.cuny.edu)
 - **Email**: [shill1@ccny.cuny.edu](mailto:shill1@ccny.cuny.edu)
-- **Office Hours**: Thursdays 2-3pm, and by appointment, Marshak 733.
+- **Office Hours**: Mondays 1-2pm, and by appointment, Marshak 733.
 
 ---
 - **Required textbook**: [Global Warming Science](https://press.princeton.edu/books/paperback/9780691228792/global-warming-science) by Eli Tziperman
