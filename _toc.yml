@@ -9,6 +9,9 @@ parts:
       - file: info/syllabus
       - file: info/schedule
       - file: info/jupyterhub
+  - caption: Course Content
+    chapters:
+      - file: chapters/glossary
   - caption: Assignments
     chapters: 
       - file: assignments/hws
