@@ -5,7 +5,7 @@
 - **Credits**: 3 credits for EAS 48800 and SUS 7300B; 4 credits for EAS B8800
 - **Class Times**: Wednesdays, 2-4:30pm; full schedule [here](./schedule)
 - **Location**: Marshak 829
-- **Final exam date and time**: TBD
+- **Final exam date and time**: Wednesday, May 21st, 1-3:15pm
 --- 
 - **Brightspace site**: students currently enrolled in the class, access by logging into [CUNY Brightspace](https://brightspace.cuny.edu/)
 - [**Course Website**](https://spencerahill.github.io/clim-change-course_2025) (the site you're on)
