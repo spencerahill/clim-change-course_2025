@@ -1,7 +1,7 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-03-16, valid for class up to and including **2025-03-26**.  For classes *after* this date, the schedule is **tentative**. 
+Last updated: 2025-03-24, valid for class up to and including **2025-04-02**.  For classes *after* this date, the schedule is **tentative**. 
 :::
 
 :::{warning}
@@ -68,8 +68,8 @@ Textbook sections refer to the required Tziperman book.
   - in-person only; pencil-and-paper **only**
 * - 4/2
   - 9
-  - Ice: Arctic Sea Ice, Greenland and Antarctica
-  - Ch. 9, 10
+  - Arctic Sea Ice
+  - Ch. 9
   - 
 * - 4/9
   - 10
@@ -99,7 +99,7 @@ Textbook sections refer to the required Tziperman book.
 * - 5/14
   - 14
   - B8800 final presentations; final review
-  - Ch. 1-14
+  - Ch. 1-4; 7-9; 12-14
   - 1st half will be presentations; 2nd half the final review
 * - **5/18 11:59pm**
   - n/a
