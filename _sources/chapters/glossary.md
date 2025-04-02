@@ -21,6 +21,11 @@ absorptivity
   
   Identical to the {term}`emissivity` at that wavelength (by [Kirchhoff's law of thermal radiation](https://en.wikipedia.org/wiki/Kirchhoff%27s_law_of_thermal_radiation); see {term}`emissivity` for more.)
 
+adiabatic
+  A process in the atmosphere and ocean in which there is no net exchange of heat or mass between an parcel or water parcel and its surroundings.  As such, its energy---for the atmosphere, its {term}`moist static energy` to good enough approximation for us---remains unchanged.
+
+  For an air parcel with {term}`relative humidity less than 100%, the resulting cooling with height follows the {term}`dry adiabatic lapse rate` of \(\Gamma_\mathrm{d}\equiv g/c_p=9.8\text{ K km}^{-1}\)
+
 aerosol
   A small solid particle in the atmosphere.  There are naturally occuring aerosols such as sea salt and dust.  There are also {term}`anthropogenic` aerosols such as sulfate and smoke from combustion.
 
@@ -64,12 +69,52 @@ climate sensitivity
 
   This cannot be directly observed: we don't have a 2nd Earth available where we can instantly double ${\text{CO}_2}$ and then watch equilibrate over thousands of years.  It therefore must be estimated using climate models.
 
+cloud
+  You know, those white puffy things in the sky.  Suspensions of liquid water droplets or ice crystals or a mixture of the two.
+
+  Can be categorized in numerous ways.  For our purposes, there are three key cloud types: {term}`low cloud`, {term}`high cloud`, and {term}{term}`cumulonimbus` cloud.
+
+  Hugely important for Earth's {term}`top of atmosphere` radiative balance, as quantified in the {term}`cloud radiative effect`.  As such, also hugely important for the *change* in Earth's TOA radiative balance in response to a {term}`radiative forcing`, as quantified in the {term}`cloud feedback`.
+
+cloud condensation nuclei
+  Particles, a.k.a. {term}`aerosol`, suspended in the atmosphere that water can condense onto to form cloud droplets or ice crystals in air that has reached {term}`saturation`.  Often abbreviated CCN.
+
+  In the absence of sufficient CCN, even once air reaches {term}`saturation`, cloud droplets or ice crystals will not immediately form, and instead the air will be become *supersaturated*.
+
+  All else equal, the more CCN present in a given saturated air parcel, the more cloud droplets and/or ice crystals will form.  For a fixed amount of condensed water, this results in smaller droplets on average, which acts to increase the cloud's {term}`albedo`.
+
 cloud feedback
-  The {term}`radiative feedback` due to changes in cloud properties.
+  The {term}`radiative feedback` due to changes in {term}`cloud` properties.  In essence, the rate of change of the {term}`cloud radiative effect` per Kelvin surface warming.
 
-  These are highly uncertain, due to the large number of processes involved and the vast range of underlying physical scales, from micron-scale changes in e.g. cloud droplet size that influence cloud {term}`albedo` all the way up to changes in planetary-scale flow patterns that influence the overall location, extent, and height of different cloud types.
+  The current best estimate of the global-mean cloud feedback is that it is a mildly {term}`positive feedback`.
 
-  That said, the current best estimate of the global-mean cloud feedback is that it is a mildly {term}`positive feedback`.
+  However, these are highly uncertain, due to the large number of processes involved and the vast range of underlying physical scales, from micron-scale changes in e.g. cloud droplet size that influence cloud {term}`albedo` all the way up to changes in planetary-scale flow patterns that influence the overall location, extent, and height of different cloud types.  As such, a considerably more positive feedback, or even a slightly {term}`negative feedback`, cannot currently be ruled out.
+
+  Of all the individual feedbacks, the cloud feedback contributes the greatest amount of uncertainty to the net feedback.
+
+cloud radiative effect
+  Essentially, the amount that the existence of {term}`cloud` alters the {term}`top of atmosphere` radiative balance.  Physical dimensions are power per unit area, so SI units are Watts per square meter ($\text{W m}^{-2}$).  Often abbreviated CRE.  
+  
+  Signed positive downward, i.e. into the atmosphere: positive CRE means that clouds cause a net *increase* of radiation to be absorbed within the climate system, whereas negative CRE means that clouds cause a net *decrease* of absorbed radiation.
+
+  Can be defined for just the {term}`shortwave radiation` ("SW CRE"), just the {term}`longwave radiation` ("LW CRE"), or their combination ("net CRE"), which is just the sum of the SW CRE and LW CRE.  Each flavor can be defined/computed for the global average as well as locally.
+
+  Globally averaged for Earth's present climate, the SW CRE is strongly negative, roughly $-50\text{ W m}^{-2}$, the LW CRE is moderately positive, roughly $+30\text{ W m}^{-2}$, and thus the net CRE is negative, roughly $-20\text{ W m}^{-2}$.  Thus, all together clouds act to cool Earth's climate.
+
+  To be distinguished from {term}`cloud feedback`: whereas CRE refers to conditions for a given climate state, units $\text{W m}^{-2}$, cloud feedback is about the *change* in CRE with surface temperature change, units $\text{W m}^{-2}\text{ K}^{-1}$, as the system works toward a new equilibrium in response to some {term}`radiative forcing`.
+
+  (More technically, CRE is computed using the numerical models of radiative transfer within {term}`climate model`s.  For a given state of the atmosphere, the radiative transfer code is run once to get the "all-sky" conditions.  The code is then repeated but with all clouds artificially *removed* from the atmosphere to get the "clear-sky" conditions.  The CRE is then taken as the all-sky minus the clear-sky.  There are also methods to try to compute it from observational data without relying on a numerical model, which we won't go into.)
+  
+  (We don't cover it, but one can also define a *surface* CRE: how much the radiative imbalance at the *surface*, rather than at TOA, is affected by clouds.)
+
+cumulonimbus
+  The deep clouds that extend from the surface sometimes all the way up to the {term}`tropopause, where they spread out laterally.  This gives them the overall shape reminiscent of a blacksmith's anvil, and hence the upper horizontally expansive part is called a cloud *anvil*.
+
+  Caused by deep convection: very warm and moist air relative to the air above it becomes buoyant, which causes it to rise, creating cloud and heavy rainfall in the process.
+
+  Taken as a whole, including both the narrower convective tower and the more expansive upper anvil, their net {term}`cloud radiative effect` is slightly positive: the trapping of {term}`longwave radiation` by both the tower and anvil win out over the reflection of {term}`shortwave radiation`.
+
+  A useful starting point for thinking about the development of cumulonimbus clouds is to assume the air is undergoing {term}`adiabatic` ascent, and as such that its {term}`moist static energy` as it ascends through the troposphere is the same as the value it started with near the surface.
 
 emission height
   The height above the surface at which the atmospheric temperature is equal to the blackbody temperature corresponding to Earth's outgoing longwave radiation (OLR).  Physical dimensions are height, so SI units are meters, but it's usually expressed in kilometers.
@@ -93,8 +138,33 @@ emissivity
 equilibrium climate sensitivity
   The {term}`climate sensitivity` after the whole climate system, including the deep ocean, reaches a new equilibrium state.  Because heat transfer within the deep ocean is very slow, this takes thousands of years.
 
+glacier
+  A large piece of ice sitting on a mountain.
+
+  Melt of glaciers with warming contributes to {term}`sea level rise`.
+
 greenhouse gas
   A molecule in Earth's atmosphere that significantly absorbs {term}`longwave radiation`.  The two most important ones are carbon dioxide (CO$_2$) and water vapor (H$_2$O).  Others include methane (CH$_4$), nitrous oxide (N$_2$O), and ozone (O$_3$)
+
+hiatus periods
+  During the transient period of warming in response to a positive {term}`radiative forcing`---such as the ongoing global-mean warming in response to historical {term}`anthropogenic` greenhouse gas emissions---periods of roughly a decade or longer during which global-mean surface temperature nonetheless stays flat or even slightly cools.
+
+  These are the natural consequence of two things happening at once: (1) the long-term warming due to the system trying to reach a new equilibrium, and (2) natural, {term}`internal variability` in the climate system that causes the surface to be a bit warmer than usual or--in the case of hiatus periods---a bit colder than usual for a while.
+
+ice sheet
+  A huge mass of ice on land.  Currently, there are two: Greenland and Antarctica.  
+  
+  In colder periods such as the ice ages, these were thicker and more expansive, and the great Laurentide ice sheet extended beyond Greenland to much of the northern high latitudes, including much of Canada and northern Europe, and in North America reaching as far south as New Jersey, Pennsylvania, and Ohio.  The retreat of the ice sheets from glacial to interglacial periods affects local {term}`sea level rise` through {term}`post-glacial rebound`.
+
+high cloud
+  A {term}`cloud` that is sufficiently high in Earth's {term}`troposphere`, say 7 km and higher.  Because temperatures there are very cold, often consist of ice crystals or are *mixed-phase*, meaning a combination of liquid droplets and ice crystals.
+  
+  For our purposes, notable types of high floud include wispy *cirrus* clouds and the thick *anvil* of {term}`cumulonimbus` towers. 
+
+  High clouds tend to have a positive net {term}`cloud radiative effect`:
+  - {term}`longwave radiation`: being high up to the surface, their temperature is typically much cooler than that of the surface, resulting in substantial net absorption of LW.  In other words, they absorb the LW emitted by the surface underneath, and then re-emit it at a much colder temperature and thus with less energy, resulting in less radiative energy escaping to space.
+  - {term}`shortwave radiation`: they reflect SW back to space, so SW CRE is negative.
+  - net: Generally positive: the LW trapping tends to win out over the SW reflection
 
 insolation
   A contraction of the phrase "**in**coming **sol**ar radi**ation**": the amount of solar radiation incident at Earth's {term}`top of atmosphere`.  Physical dimensions are power per area; SI units are Watts divided by square meter, $\text{W m}^{-2}$.
@@ -104,6 +174,14 @@ internal variability
 
   That is even more the case when considering smaller scales.  In general, the smaller the timescale and/or spatial scale, the greater influence internal variability will have on the behavior relative to other factors.
 
+low cloud
+  A {term}`cloud` that is sufficiently low in Earth's {term}`troposphere`, so anywhere from the surface up to say 3-4 km.  Of our particular interest are the pervasive decks of *stratocumulus* clouds over the eastern portions of the subtropical oceans.
+
+  Low clouds tend to have a negative net {term}`cloud radiative effect`:
+  - {term}`longwave radiation`: being close to the surface, their temperature is not usually much cooler than that of the surface, resulting in little net absorption of LW.  So, even though they are highly effective absorbers of surface LW, they then re-emit it at nearly the same temperature: LW CRE is close to zero
+  - {term}`shortwave radiation`: they reflect lots of SW back to space, so SW CRE is strongly negative.
+  - net: Little LW absorption plus strong SW reflection equals negative CRE.
+
 Kelvin
   Absolute temperature, such that zero Kelvin equals [absolute zero](https://en.wikipedia.org/wiki/Absolute_zero).  Abbreviated K.  The SI unit for temperature.  Equal to degrees Celsius plus 273.15.  
 
@@ -112,6 +190,9 @@ Kelvin
   Conversely, if we were talking about Earth's current global-mean temperature, which is approximately 288 Kelvin, that is **not** the same as $288^\circ\text{C}$.  It *is* the same as $288-273.15=14.85^\circ\text{C}$.
   
   Another example, we can say that the average {term}`lapse rate` in the troposphere is approximately 6 Kelvin per kilometer, or just as well that it is 6 degrees Celsius per kilometer.  That's because the lapse rate is the *change* in temperature with height, i.e. the (infinitesimal) difference in temperature between two adjacent heights.
+
+land ice
+  Ice that sits on land.  This includes the Greenland {term}`ice sheet`, Antarctic {term}`ice sheet`, and all mountain {term}`glacier`s.
 
 lapse rate
   The change in temperature with height, with sign flipped.  Usually denoted with a capital Gamma $\Gamma$: $\Gamma\equiv-\partial T/\partial z$.  Physical dimensions are temperature divided by height, so SI units are Kelvin divided by meters, but the denominator is often expressed in kilometers, so $\text{K km}^{-1}$, or equivalently $^\circ\text{C km}^{-1}$.
@@ -179,6 +260,11 @@ positive feedback
 
   Note: in response to a *negative* {term}`radiative forcing`, the overall surface air temperature response will be negative, i.e. cooling.  In that case, a "positive" feedback *amplifies* the temperature change, i.e. contributes *more* cooling, not less.  (That's why the "positive" vs. "negative" terms are a little confusing compared to "amplifying" vs. "inhibiting".)
 
+post-glacial rebound
+  During the Ice Ages---the most recent one being the Last Glacial Maximum that peaked roughly 21,000 years ago---huge ice sheets several kilometers thick develop over the continents.  The weight of this huge mass of ice pushes the local land surface down.  After they retreat in the subsequent *interglacial* period such as we're in right now, the land that was underneath them gradually rises up.  This acts to reduce local sea level.
+
+  The growth and retreat of the ice sheets also indirectly causes the nearby land surface to move up and down even past where the ice sheet ever reached: when the ice sheet pushes the land beneath it down, some of the crust also gets pushed out to the side in addition to downward.  This adds land mass to adjacent areas and thus causes the land surface there to go up, decreasing the local sea level.  Going from the glacial to the interglacial, the reverse process occurs: where the ice retreats, the land moves up but also some crust flows toward it, which acts to decrease the surface height in adjacent areas and thus cause local sea level rise.
+
 radiative feedback
   A process driven by the change in Earth's *surface* temperature that results in a change in the net {term}`top of atmosphere` radiative flux.  More formally, the change in Watts per meter squared at TOA per Kelvin change in surface temperature.
   
@@ -235,6 +321,83 @@ scenario uncertainty
   It's possible that, for example, a political breakthrough and/or technological breakthrough cause emissions to go down rapidly.  It's also possible that, for example, political deadlock on carbon policy or unexpectedly rapid population growth cause emission to continue increasing for the rest of the century.  Or anything in between.
 
   Unlike {term}`internal variability` and {term}`model uncertainty`, this is not a source of uncertainty that can be directly addressed via the physical climate science and climate models we are otherwise mostly learning about in this class.  Instead, it's more in the realm of economists, political scientists, etc. who try to model the actions of individuals, firms, nations, etc.
+
+sea ice
+  Ice that is floating in the oceans or seas.  Has a high {term}`albedo`.
+
+  An important contributor to {term}`surface albedo feedback`: in response to warming, sea ice will melt, exposing much darker ocean underneath, leading to more absorption of {term}`shortwave radiation`.
+
+  Conversely, sea ice melting (or expansion in the case of cooling) does not meaningfully contribute to {term}`sea level rise`, because---unlike land ice---it is already floating: by Archimedes' Principle floating sea ice displaces its weight in liquid water, so when it melts there is no change in the ocean's volume.
+
+sea ice area
+  Looking down from space, the total area covered by {term}`sea ice`.  Often considered for the Arctic as a whole and, separately, for the Antarctic as a whole.  Physical dimensions are area, so units meters squared, but often expressed in millions of square kilometers: $10^6\text{ km}^2$.
+
+sea ice age
+  How long a given piece of {term}`sea ice` has existed, starting from when it first formed.  Dimensions are time.
+
+sea ice concentration
+  The fraction of a specified grid box's area that is covered by {term}`sea ice`.  Dimensionless, and thus unitless; typically expressed in percent.
+
+  (Can depend to some extent on the precise grid box boundaries.)
+
+sea ice extent
+  The area spanned by grid boxes with {term}`sea ice concentration` exceeding a specified threshold, usually taken to be 15%.   Physical dimensions are area, so units meters squared, but often expressed in millions of square kilometers: $10^6\text{ km}^2$.
+
+  (As for sea ice concentration itself, can depend to some extent on the precise grid box boundaries.)
+
+sea ice thickness
+  The vertical extent of a given piece of {term}`sea ice`, from its bottom below the ocean surface to its top just above the ocean surface.  Physical dimensions are distance, so SI units meters.
+
+floe
+  A piece of floating ice.  For our purposes, this is {term}`sea ice` and can be any size, from a few cm wide at its widest point to hundreds of kilometers.
+
+frazil ice
+  Ice crystals of roughly a millimeter in size suspended in liquid water.  They are what forms in the initial phase of sea ice growth.  [Wikipedia page](https://en.wikipedia.org/wiki/Frazil_ice)
+
+grease ice
+  
+  
+pancake ice
+
+melt pond
+
+halocline
+
+detection
+
+attribution
+
+control run
+
+historical run
+
+future projection
+
+forgetting curve
+  For more: forgetting curve [Wikipedia page](https://en.m.wikipedia.org/wiki/Forgetting_curve)
+
+spaced repetition
+  For more: [Wiki](https://en.m.wikipedia.org/wiki/Spaced_repetition)
+
+Anki
+  For more: [Anki official website](https://apps.ankiweb.net/); [Michael Nielsen's 2018 article, "Augmenting Long-term Memory"](https://augmentingcognition.com/ltm.html)
+
+sea level rise
+  The increase in the height of the ocean surface that occurs with surface warming.  Often abbreviated SLR.  Caused by changes in the total volume of the ocean.
+
+    Globally averaged, there are three key contributors: 
+    - {term}`steric sea level rise`
+    - melting of land ice, i.e. ice sheets and mountain glaciers
+    - changes in land water storage
+
+    At any particular coastal location and timescale, the rate and sign of SLR depends on several additional factors as well:
+    - *atmospheric pressure loading*: higher pressure = atmosphere heavier = pushing down on ocean surface more = sea level goes down
+    - *wind stress*: wind blowing over ocean surface = pushes water with it = water piles up in the direction the wind is blowing toward, goes down in the direction the wind is blowing away from (at sufficiently large length scales, this is strongly altered by Earth's Coriolis effect, with instead the net transport of water being at a right angle to the surface wind direction)
+    - *tides*: The roughly twice-daily cycle of tides caused by the moon's gravitation causes sea level to rise and fall at the coastline, in some places by several meters.
+    - *storm surge*: Strong winds directed onshore during a tropical cyclone or other strong storm push ocean water onto the land, temporarily increasing local sea level
+    - *coastal erosion*: over time, beaches get eroded by storms, causing the local land height at the coast to decrease and thus the local sea level to increase
+    - {term}`post-glacial rebound`
+    - *gravitational effects of ice sheet melt*: ice sheets sit vertically above the ocean surface, and gravity pulls ocean water nearby upward toward the giant mass of ice.  This raises the local sea level, and the sea level farther away must go down to compensate.  Because of all this, when the ice melts, the local upward gravitational pull weakens, acting to decrease local sea level and increase sea level farther away---at least, relative to the global-mean sea level, since the ice sheet melt itself will act to increase sea level overall by adding water mass to the ocean.
 
 shortwave radiation
   Essentially, the radiation emitted by the Sun.  This corresponds to electromagnetic radiation with wavelengths spanning approximately 0.1-2 {term}`micron`.  Commonly abbreviated to SW.  Units are Watts divided by square meter, $\text{W m}^{-2}$.
