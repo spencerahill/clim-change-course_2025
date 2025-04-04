@@ -138,6 +138,11 @@ emissivity
 equilibrium climate sensitivity
   The {term}`climate sensitivity` after the whole climate system, including the deep ocean, reaches a new equilibrium state.  Because heat transfer within the deep ocean is very slow, this takes thousands of years.
 
+glacier
+  A large piece of ice sitting on a mountain.
+
+  Melt of glaciers with warming contributes to {term}`sea level rise`.
+
 greenhouse gas
   A molecule in Earth's atmosphere that significantly absorbs {term}`longwave radiation`.  The two most important ones are carbon dioxide (CO$_2$) and water vapor (H$_2$O).  Others include methane (CH$_4$), nitrous oxide (N$_2$O), and ozone (O$_3$)
 
@@ -185,6 +190,9 @@ Kelvin
   Conversely, if we were talking about Earth's current global-mean temperature, which is approximately 288 Kelvin, that is **not** the same as $288^\circ\text{C}$.  It *is* the same as $288-273.15=14.85^\circ\text{C}$.
   
   Another example, we can say that the average {term}`lapse rate` in the troposphere is approximately 6 Kelvin per kilometer, or just as well that it is 6 degrees Celsius per kilometer.  That's because the lapse rate is the *change* in temperature with height, i.e. the (infinitesimal) difference in temperature between two adjacent heights.
+
+land ice
+  Ice that sits on land.  This includes the Greenland {term}`ice sheet`, Antarctic {term}`ice sheet`, and all mountain {term}`glacier`s.
 
 lapse rate
   The change in temperature with height, with sign flipped.  Usually denoted with a capital Gamma $\Gamma$: $\Gamma\equiv-\partial T/\partial z$.  Physical dimensions are temperature divided by height, so SI units are Kelvin divided by meters, but the denominator is often expressed in kilometers, so $\text{K km}^{-1}$, or equivalently $^\circ\text{C km}^{-1}$.
@@ -315,11 +323,64 @@ scenario uncertainty
   Unlike {term}`internal variability` and {term}`model uncertainty`, this is not a source of uncertainty that can be directly addressed via the physical climate science and climate models we are otherwise mostly learning about in this class.  Instead, it's more in the realm of economists, political scientists, etc. who try to model the actions of individuals, firms, nations, etc.
 
 sea ice
-  Ice that is floating in the oceans.  Has a high {term}`albedo`.
+  Ice that is floating in the oceans or seas.  Has a high {term}`albedo`.
 
   An important contributor to {term}`surface albedo feedback`: in response to warming, sea ice will melt, exposing much darker ocean underneath, leading to more absorption of {term}`shortwave radiation`.
 
   Conversely, sea ice melting (or expansion in the case of cooling) does not meaningfully contribute to {term}`sea level rise`, because---unlike land ice---it is already floating: by Archimedes' Principle floating sea ice displaces its weight in liquid water, so when it melts there is no change in the ocean's volume.
+
+sea ice area
+  Looking down from space, the total area covered by {term}`sea ice`.  Often considered for the Arctic as a whole and, separately, for the Antarctic as a whole.  Physical dimensions are area, so units meters squared, but often expressed in millions of square kilometers: $10^6\text{ km}^2$.
+
+sea ice age
+  How long a given piece of {term}`sea ice` has existed, starting from when it first formed.  Dimensions are time.
+
+sea ice concentration
+  The fraction of a specified grid box's area that is covered by {term}`sea ice`.  Dimensionless, and thus unitless; typically expressed in percent.
+
+  (Can depend to some extent on the precise grid box boundaries.)
+
+sea ice extent
+  The area spanned by grid boxes with {term}`sea ice concentration` exceeding a specified threshold, usually taken to be 15%.   Physical dimensions are area, so units meters squared, but often expressed in millions of square kilometers: $10^6\text{ km}^2$.
+
+  (As for sea ice concentration itself, can depend to some extent on the precise grid box boundaries.)
+
+sea ice thickness
+  The vertical extent of a given piece of {term}`sea ice`, from its bottom below the ocean surface to its top just above the ocean surface.  Physical dimensions are distance, so SI units meters.
+
+floe
+  A piece of floating ice.  For our purposes, this is {term}`sea ice` and can be any size, from a few cm wide at its widest point to hundreds of kilometers.
+
+frazil ice
+  Ice crystals of roughly a millimeter in size suspended in liquid water.  They are what forms in the initial phase of sea ice growth.  [Wikipedia page](https://en.wikipedia.org/wiki/Frazil_ice)
+
+grease ice
+  
+  
+pancake ice
+
+melt pond
+
+halocline
+
+detection
+
+attribution
+
+control run
+
+historical run
+
+future projection
+
+forgetting curve
+  For more: forgetting curve [Wikipedia page](https://en.m.wikipedia.org/wiki/Forgetting_curve)
+
+spaced repetition
+  For more: [Wiki](https://en.m.wikipedia.org/wiki/Spaced_repetition)
+
+Anki
+  For more: [Anki official website](https://apps.ankiweb.net/); [Michael Nielsen's 2018 article, "Augmenting Long-term Memory"](https://augmentingcognition.com/ltm.html)
 
 sea level rise
   The increase in the height of the ocean surface that occurs with surface warming.  Often abbreviated SLR.  Caused by changes in the total volume of the ocean.
