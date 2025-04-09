@@ -93,6 +93,8 @@ Given all that, **always check what it tells you against the source material it 
 ## Grading
 The grading breakdown is listed in the table below.  For those enrolled in this class as EAS 48800 or SUS 7300B, this course is 3 credits.  For those enrolled in B8800, it is 4 credits, with the 4th credit coming through a term project covered [here](../assignments/b8800-term-paper). 
 
+Note that under **Midterm** and **Final**, there are two numbers listed in either case.  *You will automatically be assigned the grading scheme that gives you the better grade.*  The idea is that, if you did poorly on the midterm, you can make up for it by doing better on the final, with the midterm score then being essentially dropped.
+
 ```{list-table}
 :header-rows: 1
 :name: grading
@@ -105,11 +107,11 @@ The grading breakdown is listed in the table below.  For those enrolled in this 
   - 15%
   - 15%
 * - Midterm
-  - 35%
-  - 25%
+  - 35% or 0%
+  - 25% or 0%
 * - Final exam
-  - 50%
-  - 40%
+  - 50% or 85%
+  - 40% or 75%
 * - Term project
   - 0%
   - 20%
