@@ -1,7 +1,7 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-03-24, valid for class up to and including **2025-04-02**.  For classes *after* this date, the schedule is **tentative**. 
+Last updated: 2025-04-09, valid for class up to and including **2025-04-23**.  For classes *after* this date, the schedule is **tentative**. 
 :::
 
 :::{warning}
@@ -68,13 +68,13 @@ Textbook sections refer to the required Tziperman book.
   - in-person only; pencil-and-paper **only**
 * - 4/2
   - 9
-  - Arctic Sea Ice
+  - Arctic Sea Ice part 1
   - Ch. 9
   - 
 * - 4/9
   - 10
-  - Hurricanes
-  - Ch. 8
+  - Arctic Sea Ice part 2
+  - Ch. 9
   - 
 * - 4/16
   - n/a
@@ -83,18 +83,18 @@ Textbook sections refer to the required Tziperman book.
   - (Spring Recess)
 * - 4/23
   - 11
-  - Droughts and Precipitation
-  - Ch. 12
+  - Hurricanes
+  - Ch. 8
   - 
 * - 4/30
   - 12
-  - Heat waves
-  - Ch. 13
-  - 
+  - Droughts and Precipitation; rotating tank demonstrations
+  - Ch. 12
+  - demonstrations will take place in MR 729
 * - 5/7
   - 13
-  - Forest Fires
-  - Ch. 14
+  - Heat waves and Forest Fires
+  - Ch. 13, Ch. 14
   -
 * - 5/14
   - 14
