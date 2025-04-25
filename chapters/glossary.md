@@ -45,10 +45,19 @@ albedo
   (Technically, albedo is a *spectral* property: the precise albedo of a given material depends on the precise wavelength of the radiation incident on that material, not just the bulk SW vs. LW.  So, formally, $\alpha=\alpha(\lambda)$.  But in the {term}`two-stream approximation`, we treat it as being a bulk property of just the {term}`shortwave radiation`,)
 
 anthropogenic
-  A fancy term for *caused by humans*.  As opposed to *natural*, *naturally occuring*, etc.  So, for example, we can distinguish between *natural climate changes* on the one hand (as occur, say, between the ice ages and interglacial periods due to the planet's naturally occuring orbital fluctuations), with, on the other hand, *anthropogenic climate change* which is the set of ongoing changes to Earth's climate caused by human activities.
+  A fancy term for *caused by humans*.  As opposed to *natural*, *naturally occuring*, etc.  
+  
+  So, for example, we can distinguish between *natural climate changes* on the one hand (as occur, say, between the ice ages and interglacial periods due to the planet's naturally occuring orbital fluctuations), with, on the other hand, *anthropogenic climate change* which is the set of ongoing changes to Earth's climate caused by human activities.
 
 blackbody
   A body that emits electromagnetic radiation according to the {term}`Stefan-Boltzmann law`.  The sun and Earth's surface can be approximated as perfect blackbodies, whereas Earth's atmosphere is an imperfect blackbody, meaning it has an {term}`emissivity` that is less than one.
+
+Carnot cycle
+  The 4-stage cycle representing the optimal way that an engine can produce mechanical {term}`work`.
+
+  For our purposes, it comes up as a useful theoretical model for understanding {term}`tropical cyclone`s.
+
+  For more: [Wikipedia page](https://en.wikipedia.org/wiki/Carnot_cycle)
 
 climate model
   A representation of Earth's climate system on a computer, usually a supercomputer.  Traditionally, they work by chunking the ocean, atmosphere, and land into lots of small *gridboxes* (though the shapes aren't always a simple box) and solving the equations of motion, equations of radiative transfer, and equations representing other key processes forward in time.
@@ -165,6 +174,9 @@ high cloud
   - {term}`longwave radiation`: being high up to the surface, their temperature is typically much cooler than that of the surface, resulting in substantial net absorption of LW.  In other words, they absorb the LW emitted by the surface underneath, and then re-emit it at a much colder temperature and thus with less energy, resulting in less radiative energy escaping to space.
   - {term}`shortwave radiation`: they reflect SW back to space, so SW CRE is negative.
   - net: Generally positive: the LW trapping tends to win out over the SW reflection
+
+hurricane
+  Another name for a {term}`tropical cyclone`, specifically for those storms that form in the Atlantic Ocean and the Eastern Pacific.  These are the storms that affect Central America, the Caribbean, and North America.
 
 insolation
   A contraction of the phrase "**in**coming **sol**ar radi**ation**": the amount of solar radiation incident at Earth's {term}`top of atmosphere`.  Physical dimensions are power per area; SI units are Watts divided by square meter, $\text{W m}^{-2}$.
@@ -441,6 +453,22 @@ transmission
 
   (This is by far the most common outcome within Earth's atmosphere.  Generally $>95\%$ of the atmosphere by mass consists of N$_2$ and O$_2$ molecules, which are almost completely inert and as such do not interact with either {term}`shortwave radiation` or {term}`longwave radiation`.)
 
+tropical cyclone
+  An intense, rotating storm that forms in the `term`{tropics} over warm ocean waters and that features a calm central {term}`eye`, a surrounding {term}`eyewall` with the most intense rainfall and winds, and a broader region of spiraling clouds, high winds, and rainfall.
+  
+  For North America, these are more popularly known as {term}`hurricane`s.  For East Asia, they are more popularly known as {term}`typhoon`.
+
+tropics
+  The portion of Earth near the equator that, generally, is warm and moist, due to the high {term}`insolation` it receives compared to higher latitudes.
+
+  Another important feature of the tropics is that the {term}`Coriolis parameter` is small there, 
+  
+  There are no catch-all, exact boundaries of the Tropics, but commonly used definitions.
+
+  The rest of the Earth, i.e. the part that is not the Tropics, is the {term}`extratropics`.
+
+  Sometimes we distinguish between the *deep tropics*, roughly 15$^\circ$S-15$^\circ$N, which is the wettest part, from the {term}`subtropics`, roughly 15-30$^\circ$S and 15-30$^\circ$N, which is drier.
+
 tropopause
   The boundary between the {term}`troposphere` and {term}`stratosphere`.  Typically around 10-15 km, with the higher values generally in the tropics and lower values in the extratropics.
 
@@ -460,6 +488,18 @@ troposphere
 two-stream approximation
   The commonly used simplification of the spectral dependence of radiative transfer for Earth's climate where all radiation from the sun arriving at Earth is considered {term}`shortwave radiation` (SW) and all radiation emitted by the Earth is considered {term}`longwave radiation` (LW).
 
+typhoon
+  Another name for a {term}`tropical cyclone`, specifically for those storms that form in the western Pacific in the Northern Hemisphere that affect places like the Phillipines and Southeast Asia.
+
 water vapor feedback
   The {term}`radiative feedback` due to the increase of atmospheric water vapor with temperature, which is driven most fundamentally by the {term}`Clausius-Clapeyron` equation.  Because water vapor is a potent {term}`greenhouse gas`, the resulting increase in the {term}`absorption` of {term}`longwave radiation` acts to amplify the initial {term}`radiative forcing` that led to the initial temperature change.  It is therefore a {term}`positive feedback`.
+
+work
+  In physics, {term}`force` times the distance over which that force is applied: $w=Fd$, where $w$ is work, $F$ is the force, and $d$ is the distance.  
+  
+  Physical dimensions: since force has dimensions mass $\times$ length / time$^2$, work must have dimensions mass $\times$ length$^2$ / time$^2$.  These are the same dimensions as energy, and thus the SI units are Joules.
+
+  For us, it comes up most directly when thinking about {term}`tropical cyclone`s as {term}`Carnot cycle`s.
+
+  For more: [Wikipedia page](https://en.wikipedia.org/wiki/Work_(thermodynamics))
 ```
