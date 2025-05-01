@@ -1,7 +1,8 @@
 # Schedule
 
 :::{warning} 
-Last updated: 2025-04-09, valid for class up to and including **2025-04-23**.  For classes *after* this date, the schedule is **tentative**. 
+Last updated: 2025-04-30, valid and finalized for *all remaining classes*.
+<!-- class up to and including **2025-05-23**.  For classes *after* this date, the schedule is **tentative**. -->
 :::
 
 :::{warning}
@@ -88,13 +89,13 @@ Textbook sections refer to the required Tziperman book.
   - 
 * - 4/30
   - 12
-  - Droughts and Precipitation; rotating tank demonstrations
-  - Ch. 12
+  - Droughts and Precipitation I; rotating tank demonstrations
+  - Ch. 12 (but mostly Prof's lecture slides)
   - demonstrations will take place in MR 729
 * - 5/7
   - 13
-  - Heat waves and Forest Fires
-  - Ch. 13, Ch. 14
+  - Droughts and Precipitation II; future uncertainty
+  - Ch. 12 (but mostly Prof's lecture slides)
   -
 * - 5/14
   - 14
