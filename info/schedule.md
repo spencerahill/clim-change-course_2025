@@ -89,18 +89,18 @@ Textbook sections refer to the required Tziperman book.
   - 
 * - 4/30
   - 12
-  - Droughts and Precipitation I; rotating tank demonstrations
-  - Ch. 12 (but mostly Prof's lecture slides)
+  - Atmospheric circulation; rotating tank demonstrations
+  - (mostly Prof's lecture slides)
   - demonstrations will take place in MR 729
 * - 5/7
   - 13
-  - Droughts and Precipitation II; future uncertainty
+  - Droughts and Precipitation; future uncertainty
   - Ch. 12 (but mostly Prof's lecture slides)
   -
 * - 5/14
   - 14
   - B8800 final presentations; final review
-  - Ch. 1-4; 7-9; 12-14
+  - Ch. 1-4; 7-9; 12
   - 1st half will be presentations; 2nd half the final review
 * - **5/18 11:59pm**
   - n/a
