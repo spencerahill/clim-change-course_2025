@@ -100,7 +100,7 @@ Textbook sections refer to the required Tziperman book.
 * - 5/14
   - 14
   - B8800 final presentations; final review
-  - Ch. 1-4; 7-9; 12-14
+  - Ch. 1-4; 7-9; 12
   - 1st half will be presentations; 2nd half the final review
 * - **5/18 11:59pm**
   - n/a

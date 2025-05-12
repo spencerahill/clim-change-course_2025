@@ -155,15 +155,15 @@ glacier
 greenhouse gas
   A molecule in Earth's atmosphere that significantly absorbs {term}`longwave radiation`.  The two most important ones are carbon dioxide (CO$_2$) and water vapor (H$_2$O).  Others include methane (CH$_4$), nitrous oxide (N$_2$O), and ozone (O$_3$)
 
+Hadley cells
+  The time-mean, zonal-mean overturning circulation in Earth's {term}`tropics`.  
+  
+  Upward motion in their ascending branch in the deep tropics fuels the heavy rainfall of the {term}`Intertropical Convergence Zone` near the equator.  Sinking in their descending branches promote aridity in the subtropics of both the Northern Hemisphere and Southern Hemisphere.
+
 hiatus periods
   During the transient period of warming in response to a positive {term}`radiative forcing`---such as the ongoing global-mean warming in response to historical {term}`anthropogenic` greenhouse gas emissions---periods of roughly a decade or longer during which global-mean surface temperature nonetheless stays flat or even slightly cools.
 
   These are the natural consequence of two things happening at once: (1) the long-term warming due to the system trying to reach a new equilibrium, and (2) natural, {term}`internal variability` in the climate system that causes the surface to be a bit warmer than usual or--in the case of hiatus periods---a bit colder than usual for a while.
-
-ice sheet
-  A huge mass of ice on land.  Currently, there are two: Greenland and Antarctica.  
-  
-  In colder periods such as the ice ages, these were thicker and more expansive, and the great Laurentide ice sheet extended beyond Greenland to much of the northern high latitudes, including much of Canada and northern Europe, and in North America reaching as far south as New Jersey, Pennsylvania, and Ohio.  The retreat of the ice sheets from glacial to interglacial periods affects local {term}`sea level rise` through {term}`post-glacial rebound`.
 
 high cloud
   A {term}`cloud` that is sufficiently high in Earth's {term}`troposphere`, say 7 km and higher.  Because temperatures there are very cold, often consist of ice crystals or are *mixed-phase*, meaning a combination of liquid droplets and ice crystals.
@@ -178,8 +178,20 @@ high cloud
 hurricane
   Another name for a {term}`tropical cyclone`, specifically for those storms that form in the Atlantic Ocean and the Eastern Pacific.  These are the storms that affect Central America, the Caribbean, and North America.
 
+ice sheet
+  A huge mass of ice on land.  Currently, there are two: Greenland and Antarctica.  
+  
+  In colder periods such as the ice ages, these were thicker and more expansive, and the great Laurentide ice sheet extended beyond Greenland to much of the northern high latitudes, including much of Canada and northern Europe, and in North America reaching as far south as New Jersey, Pennsylvania, and Ohio.  The retreat of the ice sheets from glacial to interglacial periods affects local {term}`sea level rise` through {term}`post-glacial rebound`.
+
 insolation
   A contraction of the phrase "**in**coming **sol**ar radi**ation**": the amount of solar radiation incident at Earth's {term}`top of atmosphere`.  Physical dimensions are power per area; SI units are Watts divided by square meter, $\text{W m}^{-2}$.
+
+Intertropical Convergence Zone
+  The time-mean, zonal-mean band of high precipitation in Earth's deep tropics.
+  
+  Often referred to by its acronym, the ITCZ.
+
+  Driven in large part by the upward motion within the ascending branch of the {term}`Hadley cells`.
 
 internal variability
   A.k.a. "natural variability."  The naturally occuring ~random-ish fluctuations that occur on many different timescales in Earth's atmosphere and ocean.  Even for global-mean surface temperature, such internal variability can result in several years or even multiple decades of warming or cooling.

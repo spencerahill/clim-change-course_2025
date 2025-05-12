@@ -84,6 +84,135 @@ Warning: LLMs such as ChatGPT tend to generate *tons* of puff.
 ### Editorializing
 It's ok and even encoraged to give, as part of your Concluding section, some brief and narrowly scoped remarks regarding what you believe is important moving forward given what you learned from the papers you reviewed.  But keep it to that, and avoid absolutist language: (e.g. "we must", "imperative", etc.).  The job of this paper is to present some nontrivial data analysis on a given topic and put it in context of the broader state of understanding.  Nothing more, nothing less.
 
+## Grading
+
+(credit: copied nearly verbatim from [*Teaching Statistics: A Bag of Tricks](http://www.stat.columbia.edu/~gelman/bag-of-tricks/) by Andrew Gelman and Deborah Nolan)
+
+### Rubric
+
+The table below is a *competency matrix* for this report.  The first column describes each *critical task* for the assignment, and the 2nd, 3rd, and 4th columns respectively describe what work in that task would constitute Needing Improvement, Basic Competency, and Surpassed Expectations.
+
+| Critical task | Needs Improvement | Basic | Surpassed |
+|---------|---------|---------|---------|
+| **Computation**.  Perform computations necessary for the data analysis.    | Computations contain errors | Difficult to determine accuracy of computations | Computations correct and clear |
+| **Analysis**.  Choose and carry out analysis appropriate for data and context. | Choice of analysis is overly simplistic, irrelevant, inappropriate for the data, or missing key component. | Analysis appropriate, but incomplete and important features and assumptions not made explicit. | Analysis appropriate, complete, advanced, relevant, and informative. |
+| **Synthesis**.  Identify key features of the analysis, and interpret results in context.   | Conclusions are missing, incorrect, or not made bade on analysis | Conclusions reasonable, but partially correct or partially complete. | Relevant conclusions explicitly connected to analysis and context. |
+| **Visual**.  Communicate findings graphically clearly, precisely, and concisely. | Inappropriate choice of plots; poorly labeled plots; plots missing | Plots convey information corretly but lack context for interpretation | Plots convey information correctly with adequate and appropriate reference information |
+| **Written**.  Communicate findings in writing clearly, precisely, and concisely | Explanation is illogical, incorrect, or incoherent | Explanation is partially correct but incomplete or unconvincing. | Explanation is correct, complete, and convincing. |
+
+### Assigning points
+
+*Basic* competency in all five categories results in 80 points.  Three points are added for each task in the *Surpassed* category, for up to three tasks.  If a fourth task meets *Surpassed*, add an additional five points.  If a fifth task meets *Surpassed*, an additional six points.
+
+Similarly, three points are deducted for each competency in the *Needs Improvement* category, for up to three tasks.  If a fourth task meets *Needs Improvement*, deduct an additional five points.  If a fifth task meets *Needs Improvement*, deduct an additional six points.
+
+As such, the maximum possible score is 100, and the minimum possible score is 60.
+
+## Final presentation
+The final presentation will be in the style of a standard talk at an academic conference within the Earth sciences.
+
+Each student will present a "conference-style" oral presentation to the class summarizing their final project.  "Conference style" means that it follows the format of a standard oral presentation typical of major conferences in Earth Sciences such as the [American Geophysical Union](https://www.agu.org/) [Fall Meeting](https://www.agu.org/Fall-Meeting) and the [American Meteorological Society](https://www.ametsoc.org) [Annual Meeting](https://annual.ametsoc.org).
+
+### Deadlines
+You must email your final slides to the professor before 1:30pm on the day of your presentation.
+
+The professor will download the submitted slides to his computer the morning before class, and everyone will use the same computer to present (rather than each person trying to connect their own computer to the A/V system one after the other).
+
+### Format
+Conference style means the following:
+* Total duration: 12 minutes
+* Presentation: 10 minutes
+* Questions from the audience: 2 minutes
+
+(The more standard conference length is 15 minutes, 12 for the talk and then 3 for Q&A, but to get the whole class in we have to do a shorter style.  Also, since COVID, more conferences are doing shorter talks for various reasons.)
+
+### Presentation requirements
+You must include slides.  These can be in Powerpoint, Keynote, Google Slides, or anything else.  You will submit these and they will be evaluated on their own in addition to your actual delivery of the presentation.  Guidelines below offer recommendations, but ultimately there are no hard requirements on the actual content of your slides.
+
+Instructions for how to submit your slides has been posted to the course Blackboard.
+### Guidelines
+:::{note}
+Everything in this section is meant to be helpful, but none of it is strictly required.  You can deviate from e.g. the slide template if you feel like your presentation will be better served by a different structure.
+:::
+#### Presentation scope
+Whereas the written report for this project is meant to be fairly exhaustive, where you document *all* the important analyses that you performed, an oral presentation has to be more targeted.  Eight minutes will fly by!  So ask yourself: if you had to pick just *one* thing that you want to convey about your project, what would it be?  Then build your talk around that.
+
+#### Narrative
+Human beings are storytellers.  We understand and retain things best when they are presented as a coherent *narrative*, with a beginning, middle, and end.  (Actually, we retain them best of all when they are put to music, but I won't ask you to sing your presentation.)
+
+This approach of creating a *narrative* can be contrasted with what's unfortunately more typical in scientific presentations (and teaching writ large): a "data dump" listing one fact after the other without linking things together.
+
+So before you start hacking away at slides, a useful first step is to write down the *thesis statement* of your presentation: what's the 1 sentence summary of what you want to convey?  From there, you can craft a narrative with an intro that motivates that problem ("beginning"), a main, middle section that actually conveys it ("middle"), and an end that synthesizes the  individual things you presented ("end") and leaves the audience wanting more.
+
+#### Presentation structure
+```{epigraph}
+Tell the audience what you're going to say; 
+say it;
+then tell them what you've said.
+
+-- Dale Carnegie
+```
+
+(source: https://www.genardmethod.com/blog/bid/192061/how-to-open-a-presentation-tell-em-what-you-re-going-to-say)
+
+A good rule of thumb is 1 minute per slide *on average* over your whole presentation.  So for a 10 minute talk (not 12!  the last 2 are for Q&A), you should aim for 8-10 slides.  This suggests the following template, in the case of just 8 slides:
+
+1. Title slide: who are you, what's the overall topic you'll be presenting
+2. Motivation: what is the big-picture topic you're addressing, and why is it important and/or interesting?  (I.e. why should we care?)
+3. Introducing your project (what, in broad strokes, did *you* do to address the topic?) and talk outline ("tell the audience what you're going to say"): $\leq$1 sentence summary of each of your $\leq$3 main points. (In a longer talk, these would be split into separate slides.)
+4. Main point 1
+5. More on main point 1
+6. Main point 2
+7. More on main point 2 (or maybe a 3rd main point if you have it.)
+8. Recap ("tell them what you've said") and Discussion (Where is this going / could this go from here?  What are the implications?)  (In a longer talk, these would be split into separate slides.)
+
+#### Slides
+Some guidelines:
+
+* Less is more.
+* Make each slide do one thing, not multiple things.
+* Make each slide's title a complete sentence that summarizes the main point you want the slide to convey.
+* Some text is helpful, but usually people include too much.  Boil it down to the essentials.
+* Plots: describe in words every single image and table you include.  This is for accessibility, but also because almost always audience members can't tell as fast as you think they can what it is you're showing.
+* Make all text, plot labels, plotted symbols, and images big enough that everyone in the room can read them.
+* Give your slides some breathing room: a slide that's totally full with text, multiple plots, etc. is overwhelming and results in *less* information being effectively conveyed than if you had less.
+* Related, dispense with "slidejunk": you don't need slide numbers, logos, the date, etc. on every slide.  (Except for a logo of your institution on the title slide, you don't even need these anywhere!)
+* If the professor's own slides for this class fail to meet these recommendations sometimes, well, "Do as I say, not as I do" ;)
+
+### Delivering the presentation
+* Try not to worry!  Public speaking can be intimidating, but especially in this setting everyone, the professor and the other students, are there to support you and learn from you.
+* Practice the talk at least once ahead of time **with a timer**.  Make sure that you're within the time limit.  Nobody likes a talk that goes way beyond its allotted time; it's rude to the audience and the other presenters.
+* Don't be afraid of silence.  For the audience, it's actually a huge relief when a speaker takes a few seconds between slides or to take a sip of water.  It helps the audience take a second to gather their thoughts.
+
+### Answering questions
+* It can be helpful for everybody, yourself included, to repeat the question back to the person in your own words for two reasons: (1) you make sure everyone in the audience heard it.  (2) You make sure that you interpreted the question correctly.
+* Once you've confirmed you understand what they're asking, take a second (or a few)!  There's no need to answer as soon as the last word is out of their lips.
+* If you don't know the answer to a question, that's OK!  Take a few seconds to think hard about it, and then just give it your best shot.
+
+
+### Grading
+<!-- #### Your presentation -->
+Your presentation will be graded based on the following:
+
+1. Narrative quality: do you tell a single, coherent "scientific story" with a clear beginning, middle, and end?  Or do you try to pack in too many different things?
+2. Science quality: are the arguments, calculations, and plots presented valid?  Or do they include errors or other problems?
+3. Slide quality: does each slide convey a message in service of your story?  Is there enough text, plots, etc. on each slide to convey that message?  Is there *too* much on each slide for the audience to digest?  Are the fonts big enough?
+4. Length: did you complete your slides within the 8 minute time limit?  Or did you go over?  (To ensure we get through them all, you'll get 2-minute and 1-minute warnings, and at the 8 minute mark I'll ask you to wrap up essentially right away, regardless of how far you've gotten.)
+5. Answering questions: do you make a good-faith attempt to understand and address each question?  Do your answers cohere with what you presented?
+
+<!-- #### Participation
+You will be required to submit in writing one question and one piece of constructive criticism for each classmate's presentation.
+* Question: what in the presentation would you like to know more about?  Or something you didn't understand that you'd like clarified?
+* Constructive criticism: this could be positive---something the presenter did well.  Or, if delivered *respectfully and fairly*, something you'd recommend changing or that didn't quite land for you.
+
+Afterwards, all students will be provided the ANONYMIZED questions and answers from their classmates.
+
+Instructions for how to submit this feedback has been posted to the course Brightspace. -->
+
+<!-- #### Overall grade -->
+Your grade will be based on a rubric nearly identical to that for the final report provided above, but using each of the five categories immediately above under "Your presentation."  
+<!-- The "Answering questions" category will be combined with your feedback to other students into a single category. -->
+
 ## Logistics
 ### How to submit
 My preference is for you to submit the final paper and intermediate steps as [LaTeX](https://www.latex-project.org/) files, shared with me via [Overleaf](https://www.overleaf.com/).
