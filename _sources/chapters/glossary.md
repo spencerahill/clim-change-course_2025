@@ -59,17 +59,17 @@ Carnot cycle
 
   For more: [Wikipedia page](https://en.wikipedia.org/wiki/Carnot_cycle)
 
-climate model
-  A representation of Earth's climate system on a computer, usually a supercomputer.  Traditionally, they work by chunking the ocean, atmosphere, and land into lots of small *gridboxes* (though the shapes aren't always a simple box) and solving the equations of motion, equations of radiative transfer, and equations representing other key processes forward in time.
-
-  The laws of nature and the real Earth are *continuous*, whereas a computer treats things as *discrete*: climate model gridboxes have finite sizes, and the climate model advances forward in time in discrete finite chunks, e.g. 30 minutes per *timestep*.  This creates all sorts of biases and uncertainties.
-
 Clausius-Clapeyron
   The equation from thermodynamics that gives rise to the roughly exponential increase in saturation specific humidity with warming, at a rate of approximately $7\%\text{ K}^{-1}$.   
 
   Insofar as the {term}`relative humidity` stays fixed, this 7% increase per Kelvin warming extends to the specific humidity too.  But note that changes in *relative* humidity---or lack thereof---are *not* directly determined by Clausius-Clapeyron.
   
   (More formally, the Clausius-Clapeyron equation specifies the dependence of saturation vapor pressure on temperature: $d\ln e^*/dT=L_v/(R_vT^2)$, where $e^*$ is saturation vapor pressure, $T$ is temperature, $L_v=2.5\times10^6\text{ J kg}^{-1}$ is the latent heat of vaporization, and $R_v=461.5\text{ J kg}^{-1}\text{ K}^{-1}$ is the specific gas constant of water vapor.  Plugging those values of $L_v$ and $R_v$ in and using temperature ranges within the troposphere, so $T\sim200$ to $300\text{ K}$, yields the approximate $7\%\text{ K}^{-1}$ scaling.)
+
+climate model
+  A representation of Earth's climate system on a computer, usually a supercomputer.  Traditionally, they work by chunking the ocean, atmosphere, and land into lots of small *gridboxes* (though the shapes aren't always a simple box) and solving the equations of motion, equations of radiative transfer, and equations representing other key processes forward in time.
+
+  The laws of nature and the real Earth are *continuous*, whereas a computer treats things as *discrete*: climate model gridboxes have finite sizes, and the climate model advances forward in time in discrete finite chunks, e.g. 30 minutes per *timestep*.  This creates all sorts of biases and uncertainties.
 
 climate sensitivity
   The global-mean surface temperature change caused by a doubling of atmospheric CO$_2$ concentration.  Units Kelvin or degrees Celsius.  
@@ -116,6 +116,15 @@ cloud radiative effect
   
   (We don't cover it, but one can also define a *surface* CRE: how much the radiative imbalance at the *surface*, rather than at TOA, is affected by clouds.)
 
+control simulation
+  A simulation in a given {term}`climate model` with all boundary conditions including greenhouse gas concentrations held constant the whole time.
+
+  A.k.a. "control run"
+  
+  Any variability the model simulates is necessarily due to natural, {term}`internal variability`
+  
+  (Whereas in, for example, an SSP-forced simulation or doubled CO2 simulation, the model behavior has contributions from both natural variability and the imposed {term}`radiative forcing`.)
+
 cumulonimbus
   The deep clouds that extend from the surface sometimes all the way up to the {term}`tropopause, where they spread out laterally.  This gives them the overall shape reminiscent of a blacksmith's anvil, and hence the upper horizontally expansive part is called a cloud *anvil*.
 
@@ -154,6 +163,15 @@ glacier
 
 greenhouse gas
   A molecule in Earth's atmosphere that significantly absorbs {term}`longwave radiation`.  The two most important ones are carbon dioxide (CO$_2$) and water vapor (H$_2$O).  Others include methane (CH$_4$), nitrous oxide (N$_2$O), and ozone (O$_3$)
+
+greenhouse effect
+  The warming of Earth's surface due to the absorption by {term}`greenhouse gas`es in Earth's atmosphere of Earth's emitted {term}`longwave radiation` and subsequent reemission of longwave radiation back downward to the surface
+
+  Human emissions of greenhouse gases are acting to increase the strength of the greenhouse effect, thereby warming Earth's surface.  But note that the greenhouse effect exists even absent human activities; we humans are *changing* it, but we didn't *create* it.
+  
+  Without the greenhouse effect, the surface temperature would be the same as the {term}`emission temperature`.
+
+  (Beware: the term "greenhouse effect" is kind of a misnomer...it's similar but different to the way an actual greenhouse for plants stays warm inside.)
 
 Hadley cells
   The time-mean, zonal-mean overturning circulation in Earth's {term}`tropics`.  
@@ -197,6 +215,19 @@ internal variability
   A.k.a. "natural variability."  The naturally occuring ~random-ish fluctuations that occur on many different timescales in Earth's atmosphere and ocean.  Even for global-mean surface temperature, such internal variability can result in several years or even multiple decades of warming or cooling.
 
   That is even more the case when considering smaller scales.  In general, the smaller the timescale and/or spatial scale, the greater influence internal variability will have on the behavior relative to other factors.
+
+inverse square law
+  For our purposes, the fact that the amount of solar radiation *per unit area* decreases with the square of the distance away from the sun.
+
+  Formally, if $L$ is the sun's luminosity in Watts, $r$ is radial distance from the sun in meters, and $E$ is the radiative intensity per unit area, units Watts per square meter, then $$E=\frac{L}{4\pi r^2}$$
+
+  Intuitively, very close to the sun, all of the emitted photons are traveling outward through a very small sphere in space.  As they travel outward, the number of photons doesn't change, but the area of the sphere grows and grows as $4\pi r^2$.  So the amount of photons *per unit area* decreases.
+
+  This is what makes a planet's distance from the sun so fundamental to its climate.
+
+  Even still, it's not the only factor: the 
+
+  For more: [Wikipedia page](https://en.wikipedia.org/wiki/Inverse-square_law)
 
 low cloud
   A {term}`cloud` that is sufficiently low in Earth's {term}`troposphere`, so anywhere from the surface up to say 3-4 km.  Of our particular interest are the pervasive decks of *stratocumulus* clouds over the eastern portions of the subtropical oceans.
@@ -378,8 +409,7 @@ floe
 frazil ice
   Ice crystals of roughly a millimeter in size suspended in liquid water.  They are what forms in the initial phase of sea ice growth.  [Wikipedia page](https://en.wikipedia.org/wiki/Frazil_ice)
 
-grease ice
-  
+<!-- grease ice
   
 pancake ice
 
@@ -389,9 +419,7 @@ halocline
 
 detection
 
-attribution
-
-control run
+attribution -->
 
 historical run
 
@@ -497,7 +525,7 @@ troposphere
 
   Vertically above the troposphere is the *stratosphere*.
 
-two-stream approximation
+two-band approximation
   The commonly used simplification of the spectral dependence of radiative transfer for Earth's climate where all radiation from the sun arriving at Earth is considered {term}`shortwave radiation` (SW) and all radiation emitted by the Earth is considered {term}`longwave radiation` (LW).
 
 typhoon
