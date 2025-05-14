@@ -409,28 +409,6 @@ floe
 frazil ice
   Ice crystals of roughly a millimeter in size suspended in liquid water.  They are what forms in the initial phase of sea ice growth.  [Wikipedia page](https://en.wikipedia.org/wiki/Frazil_ice)
 
-<!-- grease ice
-  
-pancake ice
-
-melt pond
-
-halocline
-
-detection
-
-attribution -->
-
-historical run
-
-future projection
-
-forgetting curve
-  For more: forgetting curve [Wikipedia page](https://en.m.wikipedia.org/wiki/Forgetting_curve)
-
-spaced repetition
-  For more: [Wiki](https://en.m.wikipedia.org/wiki/Spaced_repetition)
-
 Anki
   For more: [Anki official website](https://apps.ankiweb.net/); [Michael Nielsen's 2018 article, "Augmenting Long-term Memory"](https://augmentingcognition.com/ltm.html)
 
@@ -543,3 +521,25 @@ work
 
   For more: [Wikipedia page](https://en.wikipedia.org/wiki/Work_(thermodynamics))
 ```
+
+<!-- grease ice
+  
+pancake ice
+
+melt pond
+
+halocline
+
+detection
+
+attribution
+
+historical run
+
+future projection
+
+forgetting curve
+  For more: forgetting curve [Wikipedia page](https://en.m.wikipedia.org/wiki/Forgetting_curve)
+
+spaced repetition
+  For more: [Wiki](https://en.m.wikipedia.org/wiki/Spaced_repetition) -->
