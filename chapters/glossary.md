@@ -38,16 +38,30 @@ aerosol
 albedo
   The fraction of the sun's radiation that is reflected back to space.  It is a dimensionless quantity and thus unitless.  Usually denoted with a Greek lower-case alpha, $\alpha$.
   
-  The *planetary* albedo, meaning the global-mean, time-mean value of the albedo at the {term}`top of atmosphere` is often denoted $\alpha_p$ and for Earth's present climate is approximately 0.3: approximately 30% of the insolation is reflected back to space, meaning that remaining 0.7 or 70% is absorbed within the climate system.
+  The {term}`planetary albedo` is the global-mean, time-mean value of the albedo at the {term}`top of atmosphere`.
 
   It turns out that within Earth's climate system there is very little reflection of {term}`longwave radiation`, which is why albedo is only associated with shortwave radiation.
 
-  (Technically, albedo is a *spectral* property: the precise albedo of a given material depends on the precise wavelength of the radiation incident on that material, not just the bulk SW vs. LW.  So, formally, $\alpha=\alpha(\lambda)$.  But in the {term}`two-stream approximation`, we treat it as being a bulk property of just the {term}`shortwave radiation`,)
+  Technically, albedo is a *spectral* property: the precise albedo of a given material depends on the precise wavelength of the radiation incident on that material, not just the bulk SW vs. LW.  So, formally, $\alpha=\alpha(\lambda)$.  But in the {term}`two-band approximation`, we treat it as being a bulk property of just the {term}`shortwave radiation`.
+
+analytical framework
+  One or more equations representing the physical laws of nature that we apply to a particular problem at hand.
+
+  Some examples: To understand {term}`emission temperature`, we use the {term}`planetary energy balance` analytical framework.  To understand the {term}`greenhouse effect`, we use the {term}`one-layer greenhouse model` analytical framework.
+
+  Any analytical framework we will make use of makes some assumptions and approximations.  This is necessary, to boil the given problem down to the simplest possible explanation.
+  
+  Truly understanding a given analytical framework means not just memorizing the equation(s), or even the physical meaning of each term appearing in the framework, but also being cognizant of those underlying approximations, and under what conditions they could break down.
 
 anthropogenic
   A fancy term for *caused by humans*.  As opposed to *natural*, *naturally occuring*, etc.  
   
   So, for example, we can distinguish between *natural climate changes* on the one hand (as occur, say, between the ice ages and interglacial periods due to the planet's naturally occuring orbital fluctuations), with, on the other hand, *anthropogenic climate change* which is the set of ongoing changes to Earth's climate caused by human activities.
+
+atmosphere
+  The gaseous envelope surrounding a planet.  For Earth, this extends roughly 100~km up from the {term}`surface`, is mostly transparent to {term}`shortwave radiation`, but strongly absorbs {term}`longwave radiation` due to the presence of {term}`greenhouse gas` molecules.
+
+  Earth's atmosphere consists of several distinct levels; only the two that are nearest the surface are of our concern: the {term}`troposphere` and {term}`stratosphere`.
 
 blackbody
   A body that emits electromagnetic radiation according to the {term}`Stefan-Boltzmann law`.  The sun and Earth's surface can be approximated as perfect blackbodies, whereas Earth's atmosphere is an imperfect blackbody, meaning it has an {term}`emissivity` that is less than one.
@@ -59,17 +73,17 @@ Carnot cycle
 
   For more: [Wikipedia page](https://en.wikipedia.org/wiki/Carnot_cycle)
 
-climate model
-  A representation of Earth's climate system on a computer, usually a supercomputer.  Traditionally, they work by chunking the ocean, atmosphere, and land into lots of small *gridboxes* (though the shapes aren't always a simple box) and solving the equations of motion, equations of radiative transfer, and equations representing other key processes forward in time.
-
-  The laws of nature and the real Earth are *continuous*, whereas a computer treats things as *discrete*: climate model gridboxes have finite sizes, and the climate model advances forward in time in discrete finite chunks, e.g. 30 minutes per *timestep*.  This creates all sorts of biases and uncertainties.
-
 Clausius-Clapeyron
   The equation from thermodynamics that gives rise to the roughly exponential increase in saturation specific humidity with warming, at a rate of approximately $7\%\text{ K}^{-1}$.   
 
   Insofar as the {term}`relative humidity` stays fixed, this 7% increase per Kelvin warming extends to the specific humidity too.  But note that changes in *relative* humidity---or lack thereof---are *not* directly determined by Clausius-Clapeyron.
   
   (More formally, the Clausius-Clapeyron equation specifies the dependence of saturation vapor pressure on temperature: $d\ln e^*/dT=L_v/(R_vT^2)$, where $e^*$ is saturation vapor pressure, $T$ is temperature, $L_v=2.5\times10^6\text{ J kg}^{-1}$ is the latent heat of vaporization, and $R_v=461.5\text{ J kg}^{-1}\text{ K}^{-1}$ is the specific gas constant of water vapor.  Plugging those values of $L_v$ and $R_v$ in and using temperature ranges within the troposphere, so $T\sim200$ to $300\text{ K}$, yields the approximate $7\%\text{ K}^{-1}$ scaling.)
+
+climate model
+  A representation of Earth's climate system on a computer, usually a supercomputer.  Traditionally, they work by chunking the ocean, atmosphere, and land into lots of small *gridboxes* (though the shapes aren't always a simple box) and solving the equations of motion, equations of radiative transfer, and equations representing other key processes forward in time.
+
+  The laws of nature and the real Earth are *continuous*, whereas a computer treats things as *discrete*: climate model gridboxes have finite sizes, and the climate model advances forward in time in discrete finite chunks, e.g. 30 minutes per *timestep*.  This creates all sorts of biases and uncertainties.
 
 climate sensitivity
   The global-mean surface temperature change caused by a doubling of atmospheric CO$_2$ concentration.  Units Kelvin or degrees Celsius.  
@@ -81,9 +95,11 @@ climate sensitivity
 cloud
   You know, those white puffy things in the sky.  Suspensions of liquid water droplets or ice crystals or a mixture of the two.
 
-  Can be categorized in numerous ways.  For our purposes, there are three key cloud types: {term}`low cloud`, {term}`high cloud`, and {term}{term}`cumulonimbus` cloud.
+  Can be categorized in numerous ways.  For our purposes, there are three key cloud types: {term}`low cloud`, {term}`high cloud`, and {term}`cumulonimbus` cloud.
 
-  Hugely important for Earth's {term}`top of atmosphere` radiative balance, as quantified in the {term}`cloud radiative effect`.  As such, also hugely important for the *change* in Earth's TOA radiative balance in response to a {term}`radiative forcing`, as quantified in the {term}`cloud feedback`.
+  Hugely important for Earth's {term}`top of atmosphere` radiative balance, i.e. the {term}`planetary energy balance`, due to their high {term}`albedo` for {term}`shortwave radiation` and strong {term}`absorption` of {term}`longwave radiation`.  These are quantified in the {term}`cloud radiative effect`.  
+  
+  As such, also hugely important for the *change* in Earth's TOA radiative balance in response to a {term}`radiative forcing`, as quantified in the {term}`cloud feedback`.
 
 cloud condensation nuclei
   Particles, a.k.a. {term}`aerosol`, suspended in the atmosphere that water can condense onto to form cloud droplets or ice crystals in air that has reached {term}`saturation`.  Often abbreviated CCN.
@@ -116,6 +132,25 @@ cloud radiative effect
   
   (We don't cover it, but one can also define a *surface* CRE: how much the radiative imbalance at the *surface*, rather than at TOA, is affected by clouds.)
 
+control simulation
+  A simulation in a given {term}`climate model` with all boundary conditions including greenhouse gas concentrations held constant the whole time.
+
+  A.k.a. "control run"
+  
+  Any variability the model simulates is necessarily due to natural, {term}`internal variability`
+  
+  (Whereas in, for example, an SSP-forced simulation or doubled CO2 simulation, the model behavior has contributions from both natural variability and the imposed {term}`radiative forcing`.)
+
+Coriolis parameter
+  Conceptually, this tells us the strength of Earth's rotation on horizontal motions in the atmosphere.  
+    
+  Formally, we denote it $f$, and it is defined as $f=2\Omega\sin\varphi$, where $\Omega=2\pi\text{ radians} / (86400\text{ s})$ is the planetary rotation rate in SI units ($(1\text{ day})\times(24\text{ hr day}^{-1})\times(3600\text{ s hr}^{-1})$) and $\varphi$ is latitude (in radians).
+
+  Why does it depend on the sine of latitude, $\sin\varphi$?  
+  - At the poles where $\sin\varphi=1$ the horizontal plane is exactly **normal** to the rotation axis, meaning the Earth's spinning is exactly aligned with the local horizontal plane.  
+  - At the equator, the horizontal plane is **parallel** to the rotation axis, meaning that the Earth's spinning is not occurring *at all* in the horizontal plane.  So at least for horizontal motions, at the equator it's as if the planet isn't rotating at all.
+  - At latitudes in between, the horizontal plane is neither normal nor parallel to the rotation axis, and quantitatively the dependence is $\sin\varphi$.
+
 cumulonimbus
   The deep clouds that extend from the surface sometimes all the way up to the {term}`tropopause, where they spread out laterally.  This gives them the overall shape reminiscent of a blacksmith's anvil, and hence the upper horizontally expansive part is called a cloud *anvil*.
 
@@ -124,6 +159,24 @@ cumulonimbus
   Taken as a whole, including both the narrower convective tower and the more expansive upper anvil, their net {term}`cloud radiative effect` is slightly positive: the trapping of {term}`longwave radiation` by both the tower and anvil win out over the reflection of {term}`shortwave radiation`.
 
   A useful starting point for thinking about the development of cumulonimbus clouds is to assume the air is undergoing {term}`adiabatic` ascent, and as such that its {term}`moist static energy` as it ascends through the troposphere is the same as the value it started with near the surface.
+
+disequilibrium
+  The opposite of {term}`equilibrium`.  For our purposes, this means that the climate system is *not* satisfying {term}`planetary energy balance`: either more is being absorbed than emitted at TOA, or vice versa.
+
+  As such, when considering the planet as a whole and averaging long enough in time (i.e. over many decades), the global-mean surface temperature and other statistical measures of the climate are **not** *stationary*, meaning they *are changing*.
+
+    Right now, due to historical {term}`anthropogenic` emissions of {term}`greenhouse gas` molecules and other activities, the climate system is in disequilibrium: the surface, {term}`troposphere`, and ocean are all warming up.
+
+dry adiabatic lapse rate
+  The {term}`lapse rate` followed by unsaturated air parcels that are rising or sinking {term}`adiabatic`ally.
+  
+  This can be derived exactly and is a global constant: \(\Gamma_\mathrm{d}\equiv g/c_p=9.8\text{ K km}^{-1}\), where $g$ is Earth's gravitational constant and $c_p$ is the specific heat of dry air at constant pressure.
+
+emission
+  For our purposes, this has two distinct meanings, both important:
+
+  1. The release of molecules from the surface or by human activities into the atmosphere.  Of our primary concern is the emission of {term}`greenhouse gas` molecules such as CO2.
+  2. The process of a substance sending out photons into its surroundings.
 
 emission height
   The height above the surface at which the atmospheric temperature is equal to the blackbody temperature corresponding to Earth's outgoing longwave radiation (OLR).  Physical dimensions are height, so SI units are meters, but it's usually expressed in kilometers.
@@ -144,16 +197,63 @@ emissivity
 
   For Earth's atmosphere, there are multiple {term}`absorption band`s within the {term}`longwave radiation` portion of the spectrum where both the emissivity and absorptivity are high.
 
+equilibrium
+  For our purposes, this means that the climate system is satisfying {term}`planetary energy balance`.
+
+  As such, when considering the planet as a whole and averaging long enough in time (i.e. over many decades), the global-mean surface temperature and other statistical measures of the climate are *stationary*, meaning they do not change.
+
+  If a system is not in {term}`equilibrium`, then it is in {term}`disequilibrium`.
+
+  Right now, due to historical {term}`anthropogenic` emissions of {term}`greenhouse gas` molecules and other activities, the climate system is *not* in equilibrium.
+
+  (Strictly speaking, Earth's climate is never *truly* in equilibrium, because its orbit is constantly, albeit slowly changing, and the carbon cycle is slowly changing the greenhouse gas concentrations, etc.  But those are slow enough processes---tens of thousands or hundreds of thousands of years or more---compared to the timescale of physical equilibration of the atmosphere and ocean, more like a few thousand years---that it is still useful to *approximate* the climate as being in equilibrium or not.)
+
 equilibrium climate sensitivity
-  The {term}`climate sensitivity` after the whole climate system, including the deep ocean, reaches a new equilibrium state.  Because heat transfer within the deep ocean is very slow, this takes thousands of years.
+  The {term}`climate sensitivity` after the whole climate system, including the deep ocean, reaches a new {term}`equilibrium` state.  
+
+  This takes *thousands* of years, because of two factors.  Considering a *positive* {term}`radiative forcing` to be definite (but just reverse all the signs for the case of a *negative* one), these are:
+  
+  1. The vast majority of excess energy being received by the climate system due to the positive radiative forcing is absorbed by the ocean, nearly all of it in a thin layer near the surface.  For ongoing {term}`anthropogenic` climate change, this is around 90\%.
+  2. The deep ocean has a huge heat capacity, and the mixing of energy throughout its expanse is extremely slow, in part because the circulation of water itself is very slow in the deep ocean.
+
+  Combined, these result in it taking a very long time, millennia, for all of the heat absorbed initially in the upper ocean layer to warm up the rest of the deep ocean, and thus for the system to fully reach a new equilibrium.
+
+extratropics
+  Everything poleward of the {term}`tropics`, in both the Northern Hemisphere and Southern Hemisphere.
+
+  There is no hard boundary betwen the tropics and extratropics, but commonly for Earth we use $30^\circ$S and $30^\circ$N to demarcate the two zones.  Using that, the extratropics is $30^\circ-90^\circ$S in the Southern Hemisphere and $30^\circ-90^\circ$N in the Northern Hemisphere.
+
+  In the extratropics, the {term}`Coriolis parameter` is large enough that Earth's rotation very strongly influences large-scale horizontal motions.  This, combined with the meridional temperature gradient between the warm low latitudes vs. much colder poles, gives rise to the large-scale cyclonic storms called baroclinic eddies. 
+
+eye
+  For our purposes, the calm, clear, central part of a {term}`tropical cyclone`.
+
+eyewall
+  The part of a {term}`tropical cyclone` directly outside of the {term}`eye`.  The eyewall is home to the strongest ascent and most severe rainfall.  
+  
+  It is totally filled by thick clouds which surround the clear eye, forming, metaphorically speaking, a "wall" around the eye.  Hence the term *eyewall*.
+
+floe
+  A piece of floating ice.  For our purposes, this is {term}`sea ice` and can be any size, from a few cm wide at its widest point to hundreds of kilometers.
 
 glacier
   A large piece of ice sitting on a mountain.
 
-  Melt of glaciers with warming contributes to {term}`sea level rise`.
+  Melt of glaciers with warming contributes to {term}`sea level rise`, since the water molecules that were locked in the glacier as ice melts and flows downslope as liquid water, ultimately reaching the oceans.  (At least, some fraction of the melted water does; some of it may end up in ground storage.)
+
+  Conversely, in the case of *cooling* rather than warming, the accumulation of water molecules as ice locked in the glacier contributes to sea level *decrease*.
 
 greenhouse gas
   A molecule in Earth's atmosphere that significantly absorbs {term}`longwave radiation`.  The two most important ones are carbon dioxide (CO$_2$) and water vapor (H$_2$O).  Others include methane (CH$_4$), nitrous oxide (N$_2$O), and ozone (O$_3$)
+
+greenhouse effect
+  The warming of Earth's surface due to the absorption by {term}`greenhouse gas`es in Earth's atmosphere of Earth's emitted {term}`longwave radiation` and subsequent reemission of longwave radiation back downward to the surface
+
+  Human emissions of greenhouse gases are acting to increase the strength of the greenhouse effect, thereby warming Earth's surface.  But note that the greenhouse effect exists even absent human activities; we humans are *changing* it, but we didn't *create* it.
+  
+  Without the greenhouse effect, the surface temperature would be the same as the {term}`emission temperature`.
+
+  (Beware: the term "greenhouse effect" is kind of a misnomer...it's similar but different to the way an actual greenhouse for plants stays warm inside.)
 
 Hadley cells
   The time-mean, zonal-mean overturning circulation in Earth's {term}`tropics`.  
@@ -197,6 +297,19 @@ internal variability
   A.k.a. "natural variability."  The naturally occuring ~random-ish fluctuations that occur on many different timescales in Earth's atmosphere and ocean.  Even for global-mean surface temperature, such internal variability can result in several years or even multiple decades of warming or cooling.
 
   That is even more the case when considering smaller scales.  In general, the smaller the timescale and/or spatial scale, the greater influence internal variability will have on the behavior relative to other factors.
+
+inverse square law
+  For our purposes, the fact that the amount of solar radiation *per unit area* decreases with the square of the distance away from the sun.
+
+  Formally, if $L$ is the sun's luminosity in Watts, $r$ is radial distance from the sun in meters, and $E$ is the radiative intensity per unit area, units Watts per square meter, then $$E=\frac{L}{4\pi r^2}$$
+
+  Intuitively, very close to the sun, all of the emitted photons are traveling outward through a very small sphere in space.  As they travel outward, the number of photons doesn't change, but the area of the sphere grows and grows as $4\pi r^2$.  So the amount of photons *per unit area* decreases.
+
+  This is what makes a planet's distance from the sun so fundamental to its climate.
+
+  Even still, it's not the only factor: the 
+
+  For more: [Wikipedia page](https://en.wikipedia.org/wiki/Inverse-square_law)
 
 low cloud
   A {term}`cloud` that is sufficiently low in Earth's {term}`troposphere`, so anywhere from the surface up to say 3-4 km.  Of our particular interest are the pervasive decks of *stratocumulus* clouds over the eastern portions of the subtropical oceans.
@@ -260,8 +373,26 @@ negative feedback
   
   (If, instead, the global-mean net radiative feedback was *positive*, it would be impossible to regain TOA balance!  As the system warms, the excess energy into the system at TOA would *increase*, further amplifying the initial warming.  This is known as a *runaway greenhouse* and is thought to have occured on Venus.)
 
+one-layer greenhouse model
+  The simplest {term}`analytical framework` for understanding a planet's {term}`greenhouse effect`.
+
+  All of the processes affecting both {term}`longwave radiation` and {term}`shortwave radiation` within the atmosphere are boiled down to a single layer of atmosphere.  Any {term}`absorption` of {term}`shortwave radiation` within the atmosphere is neglected---meaning all of the SW absorption occurs at the surface.  Whereas for {term}`longwave radiation`, the atmosphere absorbs some of the LW emitted by the {term}`surface`, with the fraction absorbed determined by the atmosphere's {term}LW `emissivity`, $\epsilon$.
+  
+  For {term}`emission`, the atmospheric layer has a temperature $T_a$ and emits LW according to the {term}`Stefan-Boltzmann law`: $\sigma T_a^4$, multiplied by its {term}`emissivity` $\epsilon$ to account for the fact that it is an *imperfect* {term}`blackbody`.
+
+  This single-layer atmosphere emits LW $\epsilon\sigma T_a^4$ both upward and downward.  The upward flux escapes to space and therefore determines the planet's {term}`outgoing longwave radiation`.  The downward flux is absorbed by the {term}`surface`.
+
+  It is the partial absorption of the surface's emitted LW radiation by the atmosphere, the subsequent re-emission of this absorbed LW back downward by the atmosphere, and the surface's absorption of that extra downwelling LW from the surface, that ultimately warms the surface.
+
 outgoing longwave radiation
   The upward flux of longwave radiation at the top of the atmosphere, in units Watts divided by square meter, $\text{W m}^{-2}$.  Commonly abbreviated to OLR.  *Outgoing* means that it is signed positive out of the atmosphere.  The global-mean value at present is roughly $240\text{W m}^{-2}$.
+
+photon
+  A single indivisble particle of electromagnetic radiation.
+
+  Because of the {term}`wave-particle duality` that is inherent to all EM radiation, one can think of EM radiation as either a discrete photon or as a continuous wave, flipping back and forth between the two perspectives as is convenient.
+
+  A photon's energy is given by $E=h\nu$, where $h=6.626\times10^{-34}\text{ J s}$ is **Planck's constant**, and $\nu$ is the **frequency**.  Thus, the *faster* the frequency, the *more* energy the photon carries.
 
 Planck feedback
   The {term}`radiative feedback` stemming directly from the {term}`Stefan-Boltzmann law`: blackbody emission increases with temperature to the fourth power, and so all else equal if the surface temperature and rest of the troposphere warm up by some amount, the {term}`outgoing longwave radiation` will increase, acting to reduce the net imbalance at the {term}`top of atmosphere` that led to the initial warming.
@@ -269,6 +400,30 @@ Planck feedback
   Globally averaged, it is the single largest {term}`negative feedback`.
 
   Regionally, it contributes to {term}`polar amplification` because the increase in radiation per unit warming itself increases with the original temperature.  As such, warming in the Tropics---where it's already warm---leads to a larger increase in emitted {term}`longwave radiation` compared to the same warming near the poles where, compared to the Tropics, it's much colder.
+
+planetary albedo
+  The {term}`albedo` averaged in time and over the whole planet, and considering the fluxes of {term}`shortwave radiation` at the {term}`top of atmosphere`.
+
+   Planetary albedo is often denoted $\alpha_p$ and for Earth's present climate is approximately 0.3: approximately 30% of the insolation is reflected back to space, meaning that remaining 0.7 or 70% is absorbed within the climate system.
+
+  (The term "{term}`albedo`" without the "planetary" part is more general: it can refer to a particular location and time rather than averaging over the whole planet.)
+
+planetary energy balance
+  Intuitively / informally: at {term}`equilibrium`, energy absorbed by the climate system must be balanced by energy lost by the climate system.
+
+  For Earth's climate, the vast majority of energy *received* is in the form of {term}`shortwave radiation` emitted by the sun.  (Energy received through all other sources, for example geothermal heating, is tiny by comparison in the global average.)    Similarly, virtually all of the energy *lost* by the climate is in the form of {term}`outgoing longwave radiation`, OLR: photons emitted by the planet itself, in the form of {term}`longwave radiation` that escape to space.  
+  
+  Together, these imply that the location where we measure the planetary energy balance is the {term}`top of atmosphere` (TOA).
+
+  To go from the {term}`insolation` to the amount of {term}`shortwave radiation` *absorbed*, we take into account the {term}`planetary albedo`, i.e. the fraction of the {term}`insolation` at the {term}{top of atmosphere} that is reflected back to space rather than absorbed.  If $S_0$ is the {term}`solar constant` and $\alpha_p$ is the {term}`planetary albedo`, then $S_0(1-\alpha_p)$ is the global-mean TOA SW absorbed, in $\text{W m}^{-2}$.
+
+  As such, the planetary energy balance depends on the balance between the *net* downwelling SW and the OLR at TOA.
+  
+  If planetary energy balance is satisfied, then the climate system is in {term}`equilibrium`.
+
+  In the presence of a planetary energy *imbalance*, the system is in {term}`disequilibrium` and will respond in some way that ultimately restores balance at the TOA.  
+  
+  If the *sign* of that imbalance is that there is more SW being absorbed than OLR, then the system will tend to *warm up* in order to increase the amount of OLR.
 
 polar amplification
   The tendency for surface temperature increases in response to positive {term}`radiative forcing` such as increased CO$_2$ to be greater near the poles than at lower latitudes.  This is especially true for the Arctic, and so sometimes it's referred to as *Arctic amplification*.  
@@ -372,40 +527,6 @@ sea ice extent
 sea ice thickness
   The vertical extent of a given piece of {term}`sea ice`, from its bottom below the ocean surface to its top just above the ocean surface.  Physical dimensions are distance, so SI units meters.
 
-floe
-  A piece of floating ice.  For our purposes, this is {term}`sea ice` and can be any size, from a few cm wide at its widest point to hundreds of kilometers.
-
-frazil ice
-  Ice crystals of roughly a millimeter in size suspended in liquid water.  They are what forms in the initial phase of sea ice growth.  [Wikipedia page](https://en.wikipedia.org/wiki/Frazil_ice)
-
-grease ice
-  
-  
-pancake ice
-
-melt pond
-
-halocline
-
-detection
-
-attribution
-
-control run
-
-historical run
-
-future projection
-
-forgetting curve
-  For more: forgetting curve [Wikipedia page](https://en.m.wikipedia.org/wiki/Forgetting_curve)
-
-spaced repetition
-  For more: [Wiki](https://en.m.wikipedia.org/wiki/Spaced_repetition)
-
-Anki
-  For more: [Anki official website](https://apps.ankiweb.net/); [Michael Nielsen's 2018 article, "Augmenting Long-term Memory"](https://augmentingcognition.com/ltm.html)
-
 sea level rise
   The increase in the height of the ocean surface that occurs with surface warming.  Often abbreviated SLR.  Caused by changes in the total volume of the ocean.
 
@@ -428,6 +549,13 @@ shortwave radiation
 
   To be contrasted with {term}`longwave radiation`, which essentially is the radiation emitted by the Earth.
 
+solar constant
+  The average amount of radiative energy from the sun arriving at a planet, per unit time and per unit area.  Physical dimensions are power per unit area, so SI units are Watts per square meter, $\text{W m}^{-2}$.  Denoted $S_0$.
+
+  For modern Earth, this is $S_0\approx1340 \text{W m}^{-2}$.
+
+  A planet's solar constant is determined by the {term}`inverse square law`, and depends on its average distance from the sun $d$ and the sun's luminosity $L_0$.
+
 specific humidity
   For a given volume of air, the mass of water vapor divided by the total air mass.  Usually denoted $q$.  Dimensionless: kg / kg.
 
@@ -443,8 +571,33 @@ stratosphere
 stratospheric cooling
   The fact that, in response to increased atmospheric $\text{CO}_2$, the {term}`stratosphere` tends to cool at the same time that the {term}`troposphere` warms.
 
+subtropics
+  The mostly arid, poleward portion of the {term}`tropics`.  There are no hard boundaries, but we often use $15-30^\circ$ latitude in either hemisphere to define the subtropics.
+
+  The descending branches of the {term}`Hadley cells` are located in the subtropics, which is a large contributor to the presence of deserts and dry atmospheric conditions more generally in the subtropics.
+
+surface
+  For our purposes, the *surface* refers to the surface of the planet, meaning the boundary separating the {term}`atmosphere` above, which is (mostly) gas, from what's below: depending on the location, that's either liquid (oceans, lakes, etc.) or solid (land or ice).
+
+  Among other reasons, we care about conditions at Earth's surface because, well, that's where we live.
+
+surface albedo
+  The {term}`albedo` at the planet's {term}`surface`.  So, given the amount of downwelling {term}`shortwave radiation` hitting the surface, the *fraction* of that SW that is reflected back up by the surface rather than absorbed.
+
+  Being a fraction, it is dimensionless and therefore unitless.  Its minimum is 0, meaning every SW {term}`photon` that hits the surface gets absorbed and none get reflected back up.  Its maximum is 1, meaning every SW {term}`photon` that hits the surface gets reflected back up and none get absorbed.
+
+  Broadly, the *darker* the surface, the *lower* the albedo, meaning *more* of the SW is absorbed.  So, for example, the dark blue oceans have a lower surface albedo than bright white {term}`sea ice`.
+  
+  This can be for a specific location/region and/or time.  You can also average it in space and time to give you a value of the planetary surface albedo.
+
+  The *surface* albedo is distinct from---but influences---the {term}`albedo` at the {term}`top of atmosphere`.  The TOA albedo depends on the surface albedo: if a photon from the sun passes through the atmosphere but gets absorbed at the surface, then with respect to the TOA radiative flux, this will increase
+
+  (The surface albedo and the albedo at TOA are not identical because {term}`absorption` and {term}`scattering` of SW photons occurs not just at the surface but also within the atmosphere.  For example, clouds are bright and thus increase the TOA albedo, but this doesn't directly affect the surface albedo.)
+
 surface albedo feedback
-  In response to a positive {term}`radiative forcing` (such as increased CO$_2$), surface temperatures increase, causing some ice and snow will melt, which exposes darker ocean or land surface underneath and thus causes more {term}`shortwave radiation` to be absorbed.  This acts to increase the original positive radiative forcing and thus amplify the warming, compared to the hypothetical case if the surface albedo had remained unchanged.  It thus constitutes a {term}`positive feedback` in the global mean.
+  In response to a positive {term}`radiative forcing` (such as increased CO$_2$), a *decrease* in {term}`surface albedo` as the planet warms up, making it harder to restore {term}`planetary energy balance`.
+  
+  In more detail, surface temperatures increase, causing some ice and snow will melt, which exposes darker ocean or land surface underneath and thus causes more {term}`shortwave radiation` to be absorbed.  This acts to increase the original positive radiative forcing and thus amplify the warming, compared to the hypothetical case if the {term}`surface albedo` had remained unchanged.  It thus constitutes a {term}`positive feedback` in the global mean.
 
   It promotes {term}`polar amplification` because the ice and snow occurs at high latitudes, so the extra shortwave absorption is concentrated in high latitudes promoting more rapid local warming compared to lower latitudes, all else equal.
 
@@ -497,7 +650,7 @@ troposphere
 
   Vertically above the troposphere is the *stratosphere*.
 
-two-stream approximation
+two-band approximation
   The commonly used simplification of the spectral dependence of radiative transfer for Earth's climate where all radiation from the sun arriving at Earth is considered {term}`shortwave radiation` (SW) and all radiation emitted by the Earth is considered {term}`longwave radiation` (LW).
 
 typhoon
@@ -506,8 +659,15 @@ typhoon
 water vapor feedback
   The {term}`radiative feedback` due to the increase of atmospheric water vapor with temperature, which is driven most fundamentally by the {term}`Clausius-Clapeyron` equation.  Because water vapor is a potent {term}`greenhouse gas`, the resulting increase in the {term}`absorption` of {term}`longwave radiation` acts to amplify the initial {term}`radiative forcing` that led to the initial temperature change.  It is therefore a {term}`positive feedback`.
 
+wave-particle duality
+  From quantum mechanics, the fact that electromagnetic radiation acts as if, on the one hand, it consisted of discrete, individual particles, which we call {term}`photon`s, but simultaneously, on the other hand, acts as if instead it is a continuous wave, characterized by its **wavelength**, **frequency**, or **wavenumber**.
+
+  This enables us to pick and choose whichever perspective is most helpful to the given problem at hand.  For example, when thinking about the {term}`absorption` of EM radiation when it hits a molecule, it is easiest to conceptualize this as individual {term}`photon`s hitting the molecule and exciting the molecule to a higher energetic state, with the photon being annhilated in the process.
+
+  Conversely, when thinking about the energy content of EM radiation, this is most succinctly expressed in terms of its wave properties, namely $E=h\nu$, where $E$ is energy in Joules, $h$ is **Planck's constant**, and $\nu$ is the EM wave's **frequency**
+
 work
-  In physics, {term}`force` times the distance over which that force is applied: $w=Fd$, where $w$ is work, $F$ is the force, and $d$ is the distance.  
+  In physics, **force** times the distance over which that force is applied: $w=Fd$, where $w$ is work, $F$ is the force, and $d$ is the distance.  
   
   Physical dimensions: since force has dimensions mass $\times$ length / time$^2$, work must have dimensions mass $\times$ length$^2$ / time$^2$.  These are the same dimensions as energy, and thus the SI units are Joules.
 
@@ -515,3 +675,31 @@ work
 
   For more: [Wikipedia page](https://en.wikipedia.org/wiki/Work_(thermodynamics))
 ```
+
+<!-- grease ice
+  
+pancake ice
+
+melt pond
+
+halocline
+
+detection
+
+Anki
+  For more: [Anki official website](https://apps.ankiweb.net/); [Michael Nielsen's 2018 article, "Augmenting Long-term Memory"](https://augmentingcognition.com/ltm.html)
+
+attribution
+
+historical run
+
+frazil ice
+  Ice crystals of roughly a millimeter in size suspended in liquid water.  They are what forms in the initial phase of sea ice growth.  [Wikipedia page](https://en.wikipedia.org/wiki/Frazil_ice)
+
+future projection
+
+forgetting curve
+  For more: forgetting curve [Wikipedia page](https://en.m.wikipedia.org/wiki/Forgetting_curve)
+
+spaced repetition
+  For more: [Wiki](https://en.m.wikipedia.org/wiki/Spaced_repetition) -->

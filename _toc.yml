@@ -12,6 +12,7 @@ parts:
   - caption: Course Content
     chapters:
       - file: chapters/glossary
+      - file: chapters/final-review
   - caption: Assignments
     chapters: 
       - file: assignments/hws
