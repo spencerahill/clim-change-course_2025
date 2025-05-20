@@ -94,7 +94,7 @@ Textbook sections refer to the required Tziperman book.
   - demonstrations will take place in MR 729
 * - 5/7
   - 13
-  - Droughts and Precipitation; future uncertainty
+  - Droughts and Precipitation
   - Ch. 12 (but mostly Prof's lecture slides)
   -
 * - 5/14
