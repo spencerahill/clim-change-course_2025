@@ -388,6 +388,8 @@
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fundamentals">Fundamentals</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#planetary-energy-balance">Planetary energy balance</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#greenhouse-effect">Greenhouse effect</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#layer-greenhouse-model">1-layer greenhouse model</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#emissivity-and-absorptivity">Emissivity and absorptivity</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#emission-height-and-lapse-rate">Emission height and lapse rate</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#for-unperturbed-climate-i-e-unchanged-co2-amount">For unperturbed climate (i.e. unchanged CO2 amount)</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#under-increased-co2-emission-height-rises-fixed-lapse-rate-surface-warming">Under <em>increased</em> CO2: (emission height rises) + (~fixed lapse rate) = (surface warming)</a></li>
@@ -492,7 +494,7 @@
 <section id="moisture">
 <h3>Moisture<a class="headerlink" href="#moisture" title="Link to this heading">#</a></h3>
 <p><a class="reference internal" href="glossary.html#term-specific-humidity"><span class="xref std std-term">specific humidity</span></a> (<span class="math notranslate nohighlight">\(q\)</span>): in a given volume, (kg water vapor) / (kg air)</p>
-<p><a class="reference internal" href="glossary.html#term-saturation"><span class="xref std std-term">saturation</span></a>: when air is at exact temperature and amount of moisture set by <span class="xref std std-term">Clausius Clapeyron</span> such that any more water vapor (or any cooling) would cause the water vapor to start condensing out into liquid or ice water</p>
+<p><a class="reference internal" href="glossary.html#term-saturation"><span class="xref std std-term">saturation</span></a>: when air is at exact temperature and amount of moisture set by <a class="reference internal" href="glossary.html#term-Clausius-Clapeyron"><span class="xref std std-term">Clausius-Clapeyron</span></a> such that any more water vapor (or any cooling) would cause the water vapor to start condensing out into liquid or ice water</p>
 <p><a class="reference internal" href="glossary.html#term-saturation-specific-humidity"><span class="xref std std-term">saturation specific humidity</span></a>: value of <span class="math notranslate nohighlight">\(q\)</span> at saturation</p>
 <p><a class="reference internal" href="glossary.html#term-relative-humidity"><span class="xref std std-term">relative humidity</span></a>: (actual specific humidity) / (saturation specific humidity)</p>
 </section>
@@ -521,6 +523,17 @@
 <p>But its concentration is set by temperature via Clausius Clapeyron: for fixed relative humidity, warmer = more water vapor = more greenhouse</p>
 <p>So better thought of as a feedback than a forcing</p>
 <p>Whereas CO2, humans are emitting more into the atmosphere, causing warming and associated radiative feedbacks and other climate system responses</p>
+</section>
+<section id="layer-greenhouse-model">
+<h3>1-layer greenhouse model<a class="headerlink" href="#layer-greenhouse-model" title="Link to this heading">#</a></h3>
+<p>If there was no <a class="reference internal" href="glossary.html#term-greenhouse-effect"><span class="xref std std-term">greenhouse effect</span></a>, the surface temperature and <a class="reference internal" href="glossary.html#term-emission-temperature"><span class="xref std std-term">emission temperature</span></a> would be identical: the photons emitted by the surface would all escape to space.</p>
+<p>That’s a good description of the moon, which basically has no atmosphere and thus no <a class="reference internal" href="glossary.html#term-greenhouse-effect"><span class="xref std std-term">greenhouse effect</span></a>.  But it’s a bad description of Earth.</p>
+<p>The simplest <a class="reference internal" href="glossary.html#term-analytical-framework"><span class="xref std std-term">analytical framework</span></a> that we can use to represent the greenhouse effect is the <a class="reference internal" href="glossary.html#term-one-layer-greenhouse-model"><span class="xref std std-term">one-layer greenhouse model</span></a>.</p>
+</section>
+<section id="emissivity-and-absorptivity">
+<h3>Emissivity and absorptivity<a class="headerlink" href="#emissivity-and-absorptivity" title="Link to this heading">#</a></h3>
+<p>Earth’s atmosphere is <em>not</em> a perfect blackbody.  We quantify this using <a class="reference internal" href="glossary.html#term-emissivity"><span class="xref std std-term">emissivity</span></a>, <span class="math notranslate nohighlight">\(\epsilon\)</span>: given a substance’s <em>actual</em> emitted radiative energy in <span class="math notranslate nohighlight">\(\text{W m}^{-2}\)</span>, the fraction <span class="math notranslate nohighlight">\(0&lt;\epsilon\leq1\)</span> this is of the true <a class="reference internal" href="glossary.html#term-blackbody"><span class="xref std std-term">blackbody</span></a> radiation that substance would emit, given its actual temperature.</p>
+<p>By Kirchhoff’s law, the <a class="reference internal" href="glossary.html#term-emissivity"><span class="xref std std-term">emissivity</span></a> and <a class="reference internal" href="glossary.html#term-absorptivity"><span class="xref std std-term">absorptivity</span></a> are identical.  So if, for example, suppose the atmosphere’s emissivity for <a class="reference internal" href="glossary.html#term-longwave-radiation"><span class="xref std std-term">longwave radiation</span></a> was measured to be 74%, then it must also be the case that it <em>absorbs</em> 74% of the <a class="reference internal" href="glossary.html#term-longwave-radiation"><span class="xref std std-term">longwave radiation</span></a> that it receives from the surface below.  The remaining <span class="math notranslate nohighlight">\(1-\epsilon\)</span>, which in this example is 26%, passes through without being absorbed.</p>
 </section>
 <section id="emission-height-and-lapse-rate">
 <h3>Emission height and lapse rate<a class="headerlink" href="#emission-height-and-lapse-rate" title="Link to this heading">#</a></h3>
@@ -559,9 +572,9 @@ receiving 4 W/m^2 more than it is emitting to space</p>
 <h2>Temperature (2025/2/26, 3/5)<a class="headerlink" href="#temperature-2025-2-26-3-5" title="Link to this heading">#</a></h2>
 <section id="climate-sensitivity">
 <h3>Climate sensitivity<a class="headerlink" href="#climate-sensitivity" title="Link to this heading">#</a></h3>
-<p><a class="reference internal" href="glossary.html#term-climate-sensitivity"><span class="xref std std-term">climate sensitivity</span></a>: global-mean surface air temperature change in response to a given radiative forcing, usually a CO2 doubling.</p>
-<p><a class="reference internal" href="glossary.html#term-equilibrium-climate-sensitivity"><span class="xref std std-term">equilibrium climate sensitivity</span></a> vs. <a class="reference internal" href="glossary.html#term-transient-climate-sensitivity"><span class="xref std std-term">transient climate sensitivity</span></a>: ~1000s of years vs. ~1st century after a radiative forcing is introduced</p>
-<p>Why?  Deep ocean (from ~1km to bottom) is <em>huge</em> heat reservoir, but takes up heat from near surface <em>very</em> slowly, so it takes 1000s of years for it to fully equilibrate</p>
+<p><a class="reference internal" href="glossary.html#term-climate-sensitivity"><span class="xref std std-term">climate sensitivity</span></a>: global-mean surface air temperature change in response to a given <a class="reference internal" href="glossary.html#term-radiative-forcing"><span class="xref std std-term">radiative forcing</span></a>, usually a CO2 doubling.</p>
+<p><a class="reference internal" href="glossary.html#term-equilibrium-climate-sensitivity"><span class="xref std std-term">equilibrium climate sensitivity</span></a> vs. <a class="reference internal" href="glossary.html#term-transient-climate-sensitivity"><span class="xref std std-term">transient climate sensitivity</span></a>: ~1000s of years for equilibrium vs. ~1st century after a radiative forcing is introduced for transient.</p>
+<p>Why?  Right now, ~90% of extra energy being absorbed in response to the increased CO2 is being absorbed by the ocean, and virtually all of that in a thin layer near the surface (say the first km, or even less).  The deep ocean (from ~1 km to bottom) is <em>huge</em> heat reservoir, but takes up heat from near surface <em>very</em> slowly, so it takes 1000s of years for it to fully equilibrate</p>
 <p>Thus, equilibrium warming can be substantially greater than the transient warming</p>
 </section>
 <section id="radiative-feedbacks">
@@ -744,6 +757,9 @@ sensitivity</p>
 </ul>
 <p>TCs form due to warm, moist air over the tropical oceans that gets organized into big spinning systems via the <strong>Coriolis</strong> effect</p>
 <p>This is why TCs never form in the band directly around the equator: Coriolis is too small there</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>2025 spring: I’ve decided <em>not</em> to include the Carnot cycle material on the final exam.  I’m leaving it here in case you just want to review it for your own sake, but there will be no questions on it.</em></p>
 <p>We can usefully approximate them as <a class="reference internal" href="glossary.html#term-Carnot-cycle"><span class="xref std std-term">Carnot cycle</span></a> heat engines, with each of the 4 stages:</p>
 <ol class="arabic simple">
 <li><p><strong>isothermal expansion</strong>: inflow near surface at fixed temperature but gains heat from water vapor evaporated from ocean</p></li>
@@ -751,6 +767,7 @@ sensitivity</p>
 <li><p><strong>isothermal compression</strong>: outflow near the tropopause loses energy through emitting LW</p></li>
 <li><p><strong>adiabatic compression</strong>: descent in the outer region of the TC, compressing and heating up as it sinks to higher pressures</p></li>
 </ol>
+</div>
 </section>
 <section id="hurricane-trends-and-future-projections">
 <h3>Hurricane trends and future projections<a class="headerlink" href="#hurricane-trends-and-future-projections" title="Link to this heading">#</a></h3>
@@ -938,6 +955,8 @@ sensitivity</p>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fundamentals">Fundamentals</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#planetary-energy-balance">Planetary energy balance</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#greenhouse-effect">Greenhouse effect</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#layer-greenhouse-model">1-layer greenhouse model</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#emissivity-and-absorptivity">Emissivity and absorptivity</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#emission-height-and-lapse-rate">Emission height and lapse rate</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#for-unperturbed-climate-i-e-unchanged-co2-amount">For unperturbed climate (i.e. unchanged CO2 amount)</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#under-increased-co2-emission-height-rises-fixed-lapse-rate-surface-warming">Under <em>increased</em> CO2: (emission height rises) + (~fixed lapse rate) = (surface warming)</a></li>

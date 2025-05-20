@@ -33,7 +33,7 @@ Extratropics further subdivided into **midlatitudes** (~30$^\circ$S-60$^\circ$S 
 
 {term}`specific humidity` ($q$): in a given volume, (kg water vapor) / (kg air)
 
-{term}`saturation`: when air is at exact temperature and amount of moisture set by {term}`Clausius Clapeyron` such that any more water vapor (or any cooling) would cause the water vapor to start condensing out into liquid or ice water
+{term}`saturation`: when air is at exact temperature and amount of moisture set by {term}`Clausius-Clapeyron` such that any more water vapor (or any cooling) would cause the water vapor to start condensing out into liquid or ice water
 
 {term}`saturation specific humidity`: value of $q$ at saturation
 
@@ -73,6 +73,18 @@ But its concentration is set by temperature via Clausius Clapeyron: for fixed re
 So better thought of as a feedback than a forcing
 
 Whereas CO2, humans are emitting more into the atmosphere, causing warming and associated radiative feedbacks and other climate system responses
+
+### 1-layer greenhouse model
+If there was no {term}`greenhouse effect`, the surface temperature and {term}`emission temperature` would be identical: the photons emitted by the surface would all escape to space.
+
+That's a good description of the moon, which basically has no atmosphere and thus no {term}`greenhouse effect`.  But it's a bad description of Earth.
+
+The simplest {term}`analytical framework` that we can use to represent the greenhouse effect is the {term}`one-layer greenhouse model`.
+
+### Emissivity and absorptivity
+Earth's atmosphere is *not* a perfect blackbody.  We quantify this using {term}`emissivity`, $\epsilon$: given a substance's *actual* emitted radiative energy in $\text{W m}^{-2}$, the fraction $0<\epsilon\leq1$ this is of the true {term}`blackbody` radiation that substance would emit, given its actual temperature.
+
+By Kirchhoff's law, the {term}`emissivity` and {term}`absorptivity` are identical.  So if, for example, suppose the atmosphere's emissivity for {term}`longwave radiation` was measured to be 74%, then it must also be the case that it *absorbs* 74% of the {term}`longwave radiation` that it receives from the surface below.  The remaining $1-\epsilon$, which in this example is 26%, passes through without being absorbed.
 
 ### Emission height and lapse rate
 
@@ -120,11 +132,11 @@ A nonzero radiative forcing means causes the climate system to respond in order 
 
 ### Climate sensitivity
 
-{term}`climate sensitivity`: global-mean surface air temperature change in response to a given radiative forcing, usually a CO2 doubling.
+{term}`climate sensitivity`: global-mean surface air temperature change in response to a given {term}`radiative forcing`, usually a CO2 doubling.
 
-{term}`equilibrium climate sensitivity` vs. {term}`transient climate sensitivity`: ~1000s of years vs. ~1st century after a radiative forcing is introduced
+{term}`equilibrium climate sensitivity` vs. {term}`transient climate sensitivity`: ~1000s of years for equilibrium vs. ~1st century after a radiative forcing is introduced for transient.
 
-Why?  Deep ocean (from ~1km to bottom) is *huge* heat reservoir, but takes up heat from near surface *very* slowly, so it takes 1000s of years for it to fully equilibrate
+Why?  Right now, ~90% of extra energy being absorbed in response to the increased CO2 is being absorbed by the ocean, and virtually all of that in a thin layer near the surface (say the first km, or even less).  The deep ocean (from ~1 km to bottom) is *huge* heat reservoir, but takes up heat from near surface *very* slowly, so it takes 1000s of years for it to fully equilibrate
 
 Thus, equilibrium warming can be substantially greater than the transient warming
 
@@ -344,11 +356,15 @@ TCs form due to warm, moist air over the tropical oceans that gets organized int
 
 This is why TCs never form in the band directly around the equator: Coriolis is too small there
 
+:::{note}
+*2025 spring: I've decided *not* to include the Carnot cycle material on the final exam.  I'm leaving it here in case you just want to review it for your own sake, but there will be no questions on it.*
+
 We can usefully approximate them as {term}`Carnot cycle` heat engines, with each of the 4 stages:
 1. **isothermal expansion**: inflow near surface at fixed temperature but gains heat from water vapor evaporated from ocean
 2. **adiabatic expansion**: ascent concentrated at the **eyewall**, roughly adiabatic, expanding and cooling (and raining) as it goes up
 3. **isothermal compression**: outflow near the tropopause loses energy through emitting LW 
 4. **adiabatic compression**: descent in the outer region of the TC, compressing and heating up as it sinks to higher pressures
+:::
 
 ### Hurricane trends and future projections
 
