@@ -79,7 +79,12 @@ If there was no {term}`greenhouse effect`, the surface temperature and {term}`em
 
 That's a good description of the moon, which basically has no atmosphere and thus no {term}`greenhouse effect`.  But it's a bad description of Earth.
 
-The simplest {term}`analytical framework` that we can use to represent the greenhouse effect is the {temr}`one-layer greenhouse model`.
+The simplest {term}`analytical framework` that we can use to represent the greenhouse effect is the {term}`one-layer greenhouse model`.
+
+### Emissivity and absorptivity
+Earth's atmosphere is *not* a perfect blackbody.  We quantify this using {term}`emissivity`, $\epsilon$: given a substance's *actual* emitted radiative energy in $\text{W m}^{-2}$, the fraction $0<\epsilon\leq1$ this is of the true {term}`blackbody` radiation that substance would emit, given its actual temperature.
+
+By Kirchhoff's law, the {term}`emissivity` and {term}`absorptivity` are identical.  So if, for example, suppose the atmosphere's emissivity for {term}`longwave radiation` was measured to be 74%, then it must also be the case that it *absorbs* 74% of the {term}`longwave radiation` that it receives from the surface below.  The remaining $1-\epsilon$, which in this example is 26%, passes through without being absorbed.
 
 ### Emission height and lapse rate
 
